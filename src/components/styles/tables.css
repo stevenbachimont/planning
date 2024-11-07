@@ -1,0 +1,70 @@
+/* Styles généraux */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Couleurs du tableau en cas d'erreur */
+.error-table th {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.row-red {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.row-yellow {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.row-green {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Styles pour les données normales */
+.data-table .row-even {
+    background-color: #f9f9f9;
+}
+
+.data-table .row-odd {
+    background-color: #ffffff;
+}
+
+.status-active {
+    color: green;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: red;
+    font-weight: bold;
+}
+
+/* Message de chargement */
+.loading-message {
+    text-align: center;
+    color: #007bff;
+    font-size: 1.2rem;
+}

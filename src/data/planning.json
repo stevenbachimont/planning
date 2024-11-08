@@ -1,0 +1,107 @@
+[
+  {
+    "TIME": "08:00 - 10:00",
+    "PROGRAM": "Grande Ecole 1 A",
+    "COURSE": "Introduction to Marketing",
+    "ROOM": "101",
+    "TEACHER": "Jean Dupont"
+  },
+  {
+    "TIME": "10:00 - 12:00",
+    "PROGRAM": "Grande Ecole 1 B",
+    "COURSE": "Financial Accounting",
+    "ROOM": "102",
+    "TEACHER": "Marie Claire"
+  },
+  {
+    "TIME": "13:00 - 15:00",
+    "PROGRAM": "Grande Ecole 2 A",
+    "COURSE": "Data Analysis with Python",
+    "ROOM": "202",
+    "TEACHER": "Luc Martin"
+  },
+  {
+    "TIME": "15:00 - 17:00",
+    "PROGRAM": "Grande Ecole 1 A",
+    "COURSE": "Business Strategy",
+    "ROOM": "103",
+    "TEACHER": "Claire Moreau"
+  },
+  {
+    "TIME": "16:00 - 19:00",
+    "PROGRAM": "Grande Ecole 1 A",
+    "COURSE": "Business Intelligence with Excel",
+    "ROOM": "131",
+    "TEACHER": "Valerie Lele"
+  },
+  {
+    "TIME": "17:00 - 19:00",
+    "PROGRAM": "Grande Ecole 2 B",
+    "COURSE": "Project Management",
+    "ROOM": "104",
+    "TEACHER": "Robert Lemoine"
+  },
+  {
+    "TIME": "09:00 - 12:00",
+    "PROGRAM": "Grande Ecole 3 A",
+    "COURSE": "Advanced Economics",
+    "ROOM": "201",
+    "TEACHER": "Sophie Martin"
+  },
+  {
+    "TIME": "13:00 - 15:00",
+    "PROGRAM": "Grande Ecole 2 C",
+    "COURSE": "Corporate Finance",
+    "ROOM": "105",
+    "TEACHER": "Pierre Lefevre"
+  },
+  {
+    "TIME": "14:00 - 16:00",
+    "PROGRAM": "Grande Ecole 1 C",
+    "COURSE": "Digital Marketing",
+    "ROOM": "301",
+    "TEACHER": "Camille Dubois"
+  },
+  {
+    "TIME": "15:00 - 18:00",
+    "PROGRAM": "Grande Ecole 3 B",
+    "COURSE": "International Relations",
+    "ROOM": "302",
+    "TEACHER": "Julien Bernier"
+  },
+  {
+    "TIME": "08:00 - 10:00",
+    "PROGRAM": "Grande Ecole 2 B",
+    "COURSE": "Statistics",
+    "ROOM": "106",
+    "TEACHER": "Jean Dupont"
+  },
+  {
+    "TIME": "10:00 - 12:00",
+    "PROGRAM": "Grande Ecole 3 C",
+    "COURSE": "Investment Analysis",
+    "ROOM": "305",
+    "TEACHER": "Marie Claire"
+  },
+  {
+    "TIME": "13:00 - 15:00",
+    "PROGRAM": "Grande Ecole 2 A",
+    "COURSE": "Machine Learning Basics",
+    "ROOM": "203",
+    "TEACHER": "Luc Martin"
+  },
+  {
+    "TIME": "16:00 - 18:00",
+    "PROGRAM": "Grande Ecole 1 C",
+    "COURSE": "Innovation Management",
+    "ROOM": "306",
+    "TEACHER": "Claire Moreau"
+  },
+  {
+    "TIME": "09:00 - 11:00",
+    "PROGRAM": "Grande Ecole 2 B",
+    "COURSE": "Data Science in Business",
+    "ROOM": "108",
+    "TEACHER": "Valerie Lele"
+  }
+]

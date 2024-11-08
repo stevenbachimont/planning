@@ -25,11 +25,11 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
 }
 
 thead {
-    background-color: #f2f2f2;
+    background-color: #051580;
     font-weight: bold;
 }
 
@@ -56,11 +56,11 @@ thead {
 
 /* Styles pour les données normales */
 .data-table .row-even {
-    background-color: #72eddc;
+    background-color: #098171;
 }
 
 .data-table .row-odd {
-    background-color: #ffffff;
+    background-color: #605425;
 }
 
 .status-active {

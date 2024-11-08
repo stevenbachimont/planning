@@ -1,14 +1,25 @@
-/* Styles généraux */
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #0c446e, #051220);
+}
+
+
 .table-container {
     width: 100%;
     overflow-x: auto;
     margin: 1rem 0;
+    border-radius: 10px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+
 }
 
 th, td {
@@ -24,28 +35,28 @@ thead {
 
 /* Couleurs du tableau en cas d'erreur */
 .error-table th {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: #72eddc;
+    color: #121111;
 }
 
 .row-red {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: #04bda4;
+    color: #121111;
 }
 
 .row-yellow {
-    background-color: #fff3cd;
-    color: #856404;
+    background-color: #72eddc;
+    color: #121111;
 }
 
 .row-green {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: #04bda4;
+    color: #121111;
 }
 
 /* Styles pour les données normales */
 .data-table .row-even {
-    background-color: #f9f9f9;
+    background-color: #72eddc;
 }
 
 .data-table .row-odd {

@@ -7,6 +7,7 @@ const Tables = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
     const [selectedTeacher, setSelectedTeacher] = useState('');
+    const [selectedCampus, setSelectedCampus] = useState('');
 
     useEffect(() => {
         try {
@@ -19,23 +20,35 @@ const Tables = () => {
         }
     }, []);
 
-    // Extraire la liste des professeurs sans doublons
-    const teachers = [...new Set(planningData.map(item => item.TEACHER))];
-
-    // Filtrer les cours par le professeur sélectionné
     const filteredData = selectedTeacher
         ? data.filter(item => item.TEACHER === selectedTeacher)
-        : data;
+        : selectedCampus
+            ? data.filter(item => item.CAMPUS === selectedCampus)
+            : data;
 
-    const handleTeacherChange = (event) => {
-        setSelectedTeacher(event.target.value);
+
+    const handleTeacherClick = (teacher) => {
+        setSelectedTeacher(teacher === selectedTeacher ? '' : teacher);
+    };
+
+
+    const handleTeacherHeaderClick = () => {
+        setSelectedTeacher('');
+    };
+
+    const handleCampusClick = (campus) => {
+        setSelectedCampus(campus === selectedCampus ? '' : campus);
+    };
+
+    const handleCampusHeaderClick = () => {
+        setSelectedCampus('');
     };
 
     if (loading) {
         return <p className="loading-message">Chargement des données...</p>;
     }
 
-    if (error) {
+    {/* } if (error) {
         return (
             <div className="table-container">
                 <table className="error-table">
@@ -46,6 +59,7 @@ const Tables = () => {
                         <th>COURSE</th>
                         <th>ROOM</th>
                         <th>TEACHER</th>
+                        <th>CAMPUS</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -56,23 +70,10 @@ const Tables = () => {
                 </table>
             </div>
         );
-    }
+    }*/}
 
     return (
         <div className="table-container">
-            <div className="filter-container">
-                <label htmlFor="teacher-select">Filtrer par professeur :</label>
-                <select
-                    id="teacher-select"
-                    value={selectedTeacher}
-                    onChange={handleTeacherChange}
-                >
-                    <option value="">Tous les professeurs</option>
-                    {teachers.map((teacher, index) => (
-                        <option key={index} value={teacher}>{teacher}</option>
-                    ))}
-                </select>
-            </div>
             <table className="data-table">
                 <thead>
                 <tr>
@@ -80,17 +81,32 @@ const Tables = () => {
                     <th>PROGRAM</th>
                     <th>COURSE</th>
                     <th>ROOM</th>
-                    <th>TEACHER</th>
+                    <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
+                        TEACHER
+                    </th>
+                    <th onClick={handleCampusHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
+                        CAMPUS
+                    </th>
                 </tr>
                 </thead>
                 <tbody>
                 {filteredData.map((item, index) => (
                     <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
                         <td>{item.TIME}</td>
-                        <td>{item.PROGRAM}</td>
+                        <td>{item.PROGRAMME}</td>
                         <td>{item.COURSE}</td>
                         <td>{item.ROOM}</td>
-                        <td>{item.TEACHER}</td>
+                        <td
+                            onClick={() => handleTeacherClick(item.TEACHER)}
+                            style={{ cursor: 'pointer', color: item.TEACHER === selectedTeacher ? 'blue' : 'black' }}
+                        >
+                            {item.TEACHER}
+                        </td>
+                        <td
+                        onClick={() => handleCampusClick(item.CAMPUS)}
+                        style={{ cursor: 'pointer', color: item.CAMPUS === selectedCampus ? 'blue' : 'black' }}
+                        >
+                        {item.CAMPUS}</td>
                     </tr>
                 ))}
                 </tbody>

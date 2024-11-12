@@ -4,15 +4,32 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background: linear-gradient(0deg, #0c446e, #051220);
+    background: linear-gradient(120deg, #b186e1, #274a6c);
+    position: relative;
+    overflow: hidden;
 }
 
+body::before {
+    content: url("assets/charte_test.svg");
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    scale: 1.5;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.5;
+    pointer-events: none;
+}
 
 .table-container {
     width: 100%;
     overflow-x: auto;
     margin: 1rem 0;
     border-radius: 10px;
+    position: relative;
+    z-index: 2;
+
+
 }
 
 table {
@@ -25,42 +42,20 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #000000;
+    border: 1px solid #5e5c5c;
 }
 
 thead {
-    background-color: #051580;
+    background-color: #01051e;
     font-weight: bold;
 }
 
-/* Couleurs du tableau en cas d'erreur */
-.error-table th {
-    background-color: #72eddc;
-    color: #121111;
-}
-
-.row-red {
-    background-color: #04bda4;
-    color: #121111;
-}
-
-.row-yellow {
-    background-color: #72eddc;
-    color: #121111;
-}
-
-.row-green {
-    background-color: #04bda4;
-    color: #121111;
-}
-
-/* Styles pour les données normales */
 .data-table .row-even {
-    background-color: #098171;
+    background-color: rgba(21, 101, 179, 0.46);
 }
 
 .data-table .row-odd {
-    background-color: #605425;
+    background-color: #b186e1;
 }
 
 .status-active {
@@ -73,9 +68,9 @@ thead {
     font-weight: bold;
 }
 
-/* Message de chargement */
+
 .loading-message {
     text-align: center;
-    color: #007bff;
+    color: #b186e1;
     font-size: 1.2rem;
 }

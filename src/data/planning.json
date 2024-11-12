@@ -4,104 +4,119 @@
     "PROGRAM": "Grande Ecole 1 A",
     "COURSE": "Introduction to Marketing",
     "ROOM": "101",
-    "TEACHER": "Jean Dupont"
+    "TEACHER": "Jean Dupont",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "10:00 - 12:00",
     "PROGRAM": "Grande Ecole 1 B",
     "COURSE": "Financial Accounting",
     "ROOM": "102",
-    "TEACHER": "Marie Claire"
+    "TEACHER": "Marie Claire",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "13:00 - 15:00",
     "PROGRAM": "Grande Ecole 2 A",
     "COURSE": "Data Analysis with Python",
     "ROOM": "202",
-    "TEACHER": "Luc Martin"
+    "TEACHER": "Luc Martin",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "15:00 - 17:00",
     "PROGRAM": "Grande Ecole 1 A",
     "COURSE": "Business Strategy",
     "ROOM": "103",
-    "TEACHER": "Claire Moreau"
+    "TEACHER": "Claire Moreau",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "16:00 - 19:00",
     "PROGRAM": "Grande Ecole 1 A",
     "COURSE": "Business Intelligence with Excel",
     "ROOM": "131",
-    "TEACHER": "Valerie Lele"
+    "TEACHER": "Valerie Lele",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "17:00 - 19:00",
     "PROGRAM": "Grande Ecole 2 B",
     "COURSE": "Project Management",
     "ROOM": "104",
-    "TEACHER": "Robert Lemoine"
+    "TEACHER": "Robert Lemoine",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "09:00 - 12:00",
     "PROGRAM": "Grande Ecole 3 A",
     "COURSE": "Advanced Economics",
     "ROOM": "201",
-    "TEACHER": "Sophie Martin"
+    "TEACHER": "Sophie Martin",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "13:00 - 15:00",
     "PROGRAM": "Grande Ecole 2 C",
     "COURSE": "Corporate Finance",
     "ROOM": "105",
-    "TEACHER": "Pierre Lefevre"
+    "TEACHER": "Pierre Lefevre",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "14:00 - 16:00",
     "PROGRAM": "Grande Ecole 1 C",
     "COURSE": "Digital Marketing",
     "ROOM": "301",
-    "TEACHER": "Camille Dubois"
+    "TEACHER": "Camille Dubois",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "15:00 - 18:00",
     "PROGRAM": "Grande Ecole 3 B",
     "COURSE": "International Relations",
     "ROOM": "302",
-    "TEACHER": "Julien Bernier"
+    "TEACHER": "Julien Bernier",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "08:00 - 10:00",
     "PROGRAM": "Grande Ecole 2 B",
     "COURSE": "Statistics",
     "ROOM": "106",
-    "TEACHER": "Jean Dupont"
+    "TEACHER": "Jean Dupont",
+    "CAMPUS": "Media"
   },
   {
     "TIME": "10:00 - 12:00",
     "PROGRAM": "Grande Ecole 3 C",
     "COURSE": "Investment Analysis",
-    "ROOM": "305",
-    "TEACHER": "Marie Claire"
+    "ROOM": "1305",
+    "TEACHER": "Marie Claire",
+    "CAMPUS": "City"
   },
   {
     "TIME": "13:00 - 15:00",
     "PROGRAM": "Grande Ecole 2 A",
     "COURSE": "Machine Learning Basics",
     "ROOM": "203",
-    "TEACHER": "Luc Martin"
+    "TEACHER": "Luc Martin",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "16:00 - 18:00",
     "PROGRAM": "Grande Ecole 1 C",
     "COURSE": "Innovation Management",
     "ROOM": "306",
-    "TEACHER": "Claire Moreau"
+    "TEACHER": "Claire Moreau",
+    "CAMPUS": "Atlantic"
   },
   {
     "TIME": "09:00 - 11:00",
     "PROGRAM": "Grande Ecole 2 B",
     "COURSE": "Data Science in Business",
-    "ROOM": "108",
-    "TEACHER": "Valerie Lele"
+    "ROOM": "1108",
+    "TEACHER": "Valerie Lele",
+    "CAMPUS": "City"
   }
 ]

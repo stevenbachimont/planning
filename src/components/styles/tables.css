@@ -21,6 +21,10 @@ body::before {
     pointer-events: none;
 }
 
+.fixed-width-table {
+    width: 1000px;
+}
+
 .table-container {
     width: 100%;
     overflow-x: auto;
@@ -28,10 +32,20 @@ body::before {
     border-radius: 10px;
     position: relative;
     z-index: 2;
-
-
 }
 
+.table-scroll {
+    max-height: 800px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.fixed-header thead tr {
+    position: sticky;
+    top: 0;
+    background-color: rgb(77, 23, 228);
+    z-index: 1;
+}
 table {
     width: 100%;
     border-collapse: collapse;

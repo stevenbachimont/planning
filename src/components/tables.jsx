@@ -74,45 +74,46 @@ const Tables = () => {
 
     return (
         <div className="table-container">
-            <table className="data-table">
-                <thead>
-                <tr>
-                    <th>TIME</th>
-                    <th>PROGRAM</th>
-                    <th>COURSE</th>
-                    <th>ROOM</th>
-                    <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
-                        TEACHER
-                    </th>
-                    <th onClick={handleCampusHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
-                        CAMPUS
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                {filteredData.map((item, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
-                        <td>{item.TIME}</td>
-                        <td>{item.PROGRAMME}</td>
-                        <td>{item.COURSE}</td>
-                        <td>{item.ROOM}</td>
-                        <td
-                            onClick={() => handleTeacherClick(item.TEACHER)}
-                            style={{ cursor: 'pointer', color: item.TEACHER === selectedTeacher ? 'blue' : 'black' }}
-                        >
-                            {item.TEACHER}
-                        </td>
-                        <td
-                        onClick={() => handleCampusClick(item.CAMPUS)}
-                        style={{ cursor: 'pointer', color: item.CAMPUS === selectedCampus ? 'blue' : 'black' }}
-                        >
-                        {item.CAMPUS}</td>
+            <div className="table-scroll">
+                <table className="data-table fixed-width-table fixed-header">
+                    <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>PROGRAM</th>
+                        <th>COURSE</th>
+                        <th>ROOM</th>
+                        <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
+                            TEACHER
+                        </th>
+                        <th onClick={handleCampusHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
+                            CAMPUS
+                        </th>
                     </tr>
-                ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    {filteredData.map((item, index) => (
+                        <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
+                            <td>{item.TIME}</td>
+                            <td>{item.PROGRAMME}</td>
+                            <td>{item.COURSE}</td>
+                            <td>{item.ROOM}</td>
+                            <td
+                                onClick={() => handleTeacherClick(item.TEACHER)}
+                                style={{ cursor: 'pointer', color: item.TEACHER === selectedTeacher ? 'blue' : 'black' }}
+                            >
+                                {item.TEACHER}
+                            </td>
+                            <td
+                                onClick={() => handleCampusClick(item.CAMPUS)}
+                                style={{ cursor: 'pointer', color: item.CAMPUS === selectedCampus ? 'blue' : 'black' }}
+                            >
+                                {item.CAMPUS}</td>
+                        </tr>
+                    ))}
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
-};
-
-export default Tables;
+}
+            export default Tables;

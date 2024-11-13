@@ -8,6 +8,7 @@ const Tables = () => {
     const [error, setError] = useState(false);
     const [selectedTeacher, setSelectedTeacher] = useState('');
     const [selectedCampus, setSelectedCampus] = useState('');
+    const [filterActive, setFilterActive] = useState(true);
 
     useEffect(() => {
         try {
@@ -20,17 +21,32 @@ const Tables = () => {
         }
     }, []);
 
-    const filteredData = selectedTeacher
-        ? data.filter(item => item.TEACHER === selectedTeacher)
-        : selectedCampus
-            ? data.filter(item => item.CAMPUS === selectedCampus)
-            : data;
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setData(prevData => prevData.filter(item => isCourseOngoing(item.TIME)));
+        }, 60000);
 
+        return () => clearInterval(interval);
+    }, [filterActive]);
+
+    const isCourseOngoing = (courseTime) => {
+        const [startTime] = courseTime.split(' - ').map(time => {
+            const [hours, minutes] = time.split(':').map(Number);
+            return new Date().setHours(hours, minutes, 0, 0);
+        });
+        const now = new Date().getTime();
+        const halfHourAfterStart = startTime + 30 * 60 * 1000;
+        return now < startTime || (now >= startTime && now <= halfHourAfterStart);
+    };
+
+    const filteredData = data
+        .filter(item => !filterActive || isCourseOngoing(item.TIME))
+        .filter(item => selectedTeacher ? item.TEACHER === selectedTeacher : true)
+        .filter(item => selectedCampus ? item.CAMPUS === selectedCampus : true);
 
     const handleTeacherClick = (teacher) => {
         setSelectedTeacher(teacher === selectedTeacher ? '' : teacher);
     };
-
 
     const handleTeacherHeaderClick = () => {
         setSelectedTeacher('');
@@ -42,6 +58,10 @@ const Tables = () => {
 
     const handleCampusHeaderClick = () => {
         setSelectedCampus('');
+    };
+
+    const toggleFilter = () => {
+        setFilterActive(!filterActive);
     };
 
     if (loading) {
@@ -74,6 +94,10 @@ const Tables = () => {
 
     return (
         <div className="table-container">
+            <h1>Planning</h1>
+            <button onClick={toggleFilter}>
+                {filterActive ? 'Désactiver le filtrage horaire' : 'Activer le filtrage haoraire'}
+            </button>
             <div className="table-scroll">
                 <table className="data-table fixed-width-table fixed-header">
                     <thead>
@@ -94,7 +118,7 @@ const Tables = () => {
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
                             <td>{item.TIME}</td>
-                            <td>{item.PROGRAMME}</td>
+                            <td>{item.PROGRAM}</td>
                             <td>{item.COURSE}</td>
                             <td>{item.ROOM}</td>
                             <td
@@ -116,4 +140,5 @@ const Tables = () => {
         </div>
     );
 }
-            export default Tables;
+
+export default Tables;

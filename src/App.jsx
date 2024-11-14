@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Tables from "./components/tables.jsx";
+import Tables from "./components/tables/tables.jsx";
 
 function App() {
 

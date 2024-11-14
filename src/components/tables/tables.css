@@ -10,7 +10,7 @@ body {
 }
 
 body::before {
-    content: url("assets/charte_test.svg");
+    content: url("../../../public/charte_test.svg");
     position: absolute;
     top: 70%;
     left: 90%;
@@ -87,4 +87,19 @@ thead {
     text-align: center;
     color: #b186e1;
     font-size: 1.2rem;
+}
+
+.ReactModal__Overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: #c65656;
+}
+
+.ReactModal__Content {
+    width: 1000px;
+    height: 1000px;
+    z-index: 1001;
 }

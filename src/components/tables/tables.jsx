@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
-import './styles/tables.css';
-import planningData from '../data/planning.json';
+import Modal from 'react-modal';
+import './tables.css';
+import planningData from '../../data/planning.json';
+import Canvas from '../plans/rdc';
 
 const Tables = () => {
     const [data, setData] = useState([]);
@@ -9,6 +11,7 @@ const Tables = () => {
     const [selectedTeacher, setSelectedTeacher] = useState('');
     const [selectedCampus, setSelectedCampus] = useState('');
     const [filterActive, setFilterActive] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
         try {
@@ -64,11 +67,19 @@ const Tables = () => {
         setFilterActive(!filterActive);
     };
 
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
     if (loading) {
         return <p className="loading-message">Chargement des données...</p>;
     }
 
-    {/* } if (error) {
+    if (error) {
         return (
             <div className="table-container">
                 <table className="error-table">
@@ -90,13 +101,13 @@ const Tables = () => {
                 </table>
             </div>
         );
-    }*/}
+    }
 
     return (
         <div className="table-container">
             <h1>Planning</h1>
             <button onClick={toggleFilter}>
-                {filterActive ? 'Désactiver le filtrage horaire' : 'Activer le filtrage haoraire'}
+                {filterActive ? 'Désactiver le filtrage horaire' : 'Activer le filtrage horaire'}
             </button>
             <div className="table-scroll">
                 <table className="data-table fixed-width-table fixed-header">
@@ -120,7 +131,12 @@ const Tables = () => {
                             <td>{item.TIME}</td>
                             <td>{item.PROGRAM}</td>
                             <td>{item.COURSE}</td>
-                            <td>{item.ROOM}</td>
+                            <td
+                                onClick={openModal}
+                                style={{ cursor: 'pointer', color: 'black' }}
+                            >
+                                {item.ROOM}
+                            </td>
                             <td
                                 onClick={() => handleTeacherClick(item.TEACHER)}
                                 style={{ cursor: 'pointer', color: item.TEACHER === selectedTeacher ? 'blue' : 'black' }}
@@ -137,6 +153,31 @@ const Tables = () => {
                     </tbody>
                 </table>
             </div>
+            <Modal
+                isOpen={isModalOpen}
+                onRequestClose={closeModal}
+                style={{
+                    content: {
+                        top: '50%',
+                        left: '50%',
+                        right: 'auto',
+                        bottom: 'auto',
+                        marginRight: '-50%',
+                        transform: 'translate(-50%, -50%)',
+                        padding: '0px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                        borderRadius: '8px',
+                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                    },
+                    overlay: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                    },
+                }}
+                contentLabel="Canvas Modal"
+            >
+                <Canvas />
+            </Modal>
+
         </div>
     );
 }

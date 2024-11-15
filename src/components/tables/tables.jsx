@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './tables.css';
 import planningData from '../../data/planning.json';
-import Canvas from '../plans/rdc';
+import Canvas from '../plans/plans.jsx';
 
 const Tables = () => {
     const [data, setData] = useState([]);
@@ -12,6 +12,13 @@ const Tables = () => {
     const [selectedCampus, setSelectedCampus] = useState('');
     const [filterActive, setFilterActive] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [pointPosition, setPointPosition] = useState({ x: 0, y: 0 });
+
+    const roomPositions = {
+        '35': { x: -500, y: 5 },
+        '49': { x:-570, y:-130 },
+        '131': { x: -415, y: 150 },
+    };
 
     useEffect(() => {
         try {
@@ -67,9 +74,15 @@ const Tables = () => {
         setFilterActive(!filterActive);
     };
 
-    const openModal = () => {
+    const openModal = (room) => {
+        const newPosition = roomPositions[room] || { x: 0, y: 0 };
+        setPointPosition(newPosition);
         setIsModalOpen(true);
+        setSelectedRoom(room);
     };
+
+// Add this state to store the selected room
+    const [selectedRoom, setSelectedRoom] = useState('');
 
     const closeModal = () => {
         setIsModalOpen(false);
@@ -132,7 +145,7 @@ const Tables = () => {
                             <td>{item.PROGRAM}</td>
                             <td>{item.COURSE}</td>
                             <td
-                                onClick={openModal}
+                                onClick={() => openModal(item.ROOM)}
                                 style={{ cursor: 'pointer', color: 'black' }}
                             >
                                 {item.ROOM}
@@ -175,7 +188,7 @@ const Tables = () => {
                 }}
                 contentLabel="Canvas Modal"
             >
-                <Canvas />
+                <Canvas pointPosition={pointPosition} room={selectedRoom}/>
             </Modal>
 
         </div>

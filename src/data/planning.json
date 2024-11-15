@@ -99,7 +99,7 @@
     "TIME": "13:00 - 15:00",
     "PROGRAM": "Grande Ecole 2 A",
     "COURSE": "Machine Learning Basics",
-    "ROOM": "203",
+    "ROOM": "49",
     "TEACHER": "Luc Martin",
     "CAMPUS": "Atlantic"
   },
@@ -139,7 +139,7 @@
     "TIME": "13:00 - 15:00",
     "PROGRAM": "Grande Ecole 2 A",
     "COURSE": "Data Analysis with Python",
-    "ROOM": "202",
+    "ROOM": "35",
     "TEACHER": "Luc Martin",
     "CAMPUS": "Atlantic"
   },

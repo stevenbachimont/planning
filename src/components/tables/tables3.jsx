@@ -1,27 +1,27 @@
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './tables.css';
-import planningData from '../../data/planning.json';
-import Canvas from '../plans/plans.jsx';
+import planningData from '../../data/AC.json';
+import Canvas from '../plans/plans2.jsx';
 
 const Tables = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(false);
+    const [setError] = useState(false);
     const [selectedTeacher, setSelectedTeacher] = useState('');
-    const [selectedCampus, setSelectedCampus] = useState('');
+    const [selectedProgram, setSelectedProgram] = useState('');
     const [filterActive, setFilterActive] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [pointPosition, setPointPosition] = useState({ x: 0, y: 0 });
+    const [selectedRoom, setSelectedRoom] = useState('');
 
     const roomPositions = {
         '35': { x: -500, y: 5 },
-        '49': { x:-570, y:-130 },
+        '49': { x: -570, y: -130 },
         '131': { x: -415, y: 150 },
         '235': { x: -435, y: 90 },
         '340': { x: -380, y: 100 },
         '441': { x: -540, y: -80 },
-
     };
 
     useEffect(() => {
@@ -37,26 +37,24 @@ const Tables = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setData(prevData => prevData.filter(item => isCourseOngoing(item.TIME)));
+            setData(prevData => prevData.filter(item => isCourseOngoing(item['Heure Debut'])));
         }, 60000);
 
         return () => clearInterval(interval);
     }, [filterActive]);
 
-    const isCourseOngoing = (courseTime) => {
-        const [startTime] = courseTime.split(' - ').map(time => {
-            const [hours, minutes] = time.split(':').map(Number);
-            return new Date().setHours(hours, minutes, 0, 0);
-        });
+    const isCourseOngoing = (courseStartTime) => {
+        const [hours, minutes] = courseStartTime.split(':').map(Number);
+        const startTime = new Date().setHours(hours, minutes, 0, 0);
         const now = new Date().getTime();
         const halfHourAfterStart = startTime + 30 * 60 * 1000;
         return now < startTime || (now >= startTime && now <= halfHourAfterStart);
     };
 
     const filteredData = data
-        .filter(item => !filterActive || isCourseOngoing(item.TIME))
-        .filter(item => selectedTeacher ? item.TEACHER === selectedTeacher : true)
-        .filter(item => selectedCampus ? item.CAMPUS === selectedCampus : true);
+        .filter(item => !filterActive || isCourseOngoing(item['Heure Debut']))
+        .filter(item => selectedTeacher ? item['Intervenant'] === selectedTeacher : true)
+        .filter(item => selectedProgram ? item['Valeur brute champ,'] === selectedProgram : true);
 
     const handleTeacherClick = (teacher) => {
         setSelectedTeacher(teacher === selectedTeacher ? '' : teacher);
@@ -66,12 +64,12 @@ const Tables = () => {
         setSelectedTeacher('');
     };
 
-    const handleCampusClick = (campus) => {
-        setSelectedCampus(campus === selectedCampus ? '' : campus);
+    const handleProgramClick = (program) => {
+        setSelectedProgram(program === selectedProgram ? '' : program);
     };
 
-    const handleCampusHeaderClick = () => {
-        setSelectedCampus('');
+    const handleProgramHeaderClick = () => {
+        setSelectedProgram('');
     };
 
     const toggleFilter = () => {
@@ -81,12 +79,9 @@ const Tables = () => {
     const openModal = (room) => {
         const newPosition = roomPositions[room] || { x: 0, y: 0 };
         setPointPosition(newPosition);
+        setSelectedRoom(room.toString());
         setIsModalOpen(true);
-        setSelectedRoom(room);
     };
-
-
-    const [selectedRoom, setSelectedRoom] = useState('');
 
     const closeModal = () => {
         setIsModalOpen(false);
@@ -113,34 +108,40 @@ const Tables = () => {
                         <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
                             TEACHER
                         </th>
-                        <th onClick={handleCampusHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
-                            CAMPUS
+                        <th onClick={handleProgramHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
+                            PROGRAM
                         </th>
                     </tr>
                     </thead>
                     <tbody>
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
-                            <td>{item.TIME}</td>
-                            <td>{item.PROGRAM}</td>
-                            <td>{item.COURSE}</td>
+                            <td>{`${item['Heure Debut']} - ${item['Heure Fin']}`}</td>
+                            <td>{item['Valeur brute champ,']}</td>
+                            <td>{item['Nom du cours']}</td>
                             <td
-                                onClick={() => openModal(item.ROOM)}
+                                onClick={() => openModal(item['Salle'])}
                                 style={{ cursor: 'pointer', color: 'black' }}
                             >
-                                {item.ROOM}
+                                {item['Salle']}
                             </td>
                             <td
-                                onClick={() => handleTeacherClick(item.TEACHER)}
-                                style={{ cursor: 'pointer', color: item.TEACHER === selectedTeacher ? 'blue' : 'black' }}
+                                onClick={() => handleTeacherClick(item['Intervenant'])}
+                                style={{
+                                    cursor: 'pointer',
+                                    color: item['Intervenant'] === selectedTeacher ? 'blue' : 'black'
+                                }}
                             >
-                                {item.TEACHER}
+                                {item['Intervenant']}
                             </td>
                             <td
-                                onClick={() => handleCampusClick(item.CAMPUS)}
-                                style={{ cursor: 'pointer', color: item.CAMPUS === selectedCampus ? 'blue' : 'black' }}
+                                onClick={() => handleProgramClick(item['Valeur brute champ,'])}
+                                style={{
+                                    cursor: 'pointer',
+                                    color: item['Valeur brute champ,'] === selectedProgram ? 'blue' : 'black'
+                                }}
                             >
-                                {item.CAMPUS}</td>
+                                {item['Valeur brute champ,']}</td>
                         </tr>
                     ))}
                     </tbody>
@@ -168,9 +169,8 @@ const Tables = () => {
                 }}
                 contentLabel="Canvas Modal"
             >
-                <Canvas pointPosition={pointPosition} room={selectedRoom}/>
+                <Canvas pointPosition={pointPosition} room={selectedRoom} />
             </Modal>
-
         </div>
     );
 }

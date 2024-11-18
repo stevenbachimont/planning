@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './tables.css';
-import planningData from '../../data/planning.json';
 import Canvas from '../plans/plans.jsx';
+import CsvToJson from '../CsvToJson/CsvToJson.jsx';
 
 const Tables = () => {
     const [data, setData] = useState([]);
@@ -13,27 +13,44 @@ const Tables = () => {
     const [filterActive, setFilterActive] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [pointPosition, setPointPosition] = useState({ x: 0, y: 0 });
+    const [selectedRoom, setSelectedRoom] = useState('');
 
     const roomPositions = {
         '35': { x: -500, y: 5 },
-        '49': { x:-570, y:-130 },
+        '49': { x: -570, y: -130 },
         '131': { x: -415, y: 150 },
         '235': { x: -435, y: 90 },
         '340': { x: -380, y: 100 },
         '441': { x: -540, y: -80 },
-
     };
 
     useEffect(() => {
-        try {
-            setData(planningData);
-            setLoading(false);
-        } catch (error) {
-            console.error('Erreur lors de la récupération des données:', error);
-            setLoading(false);
-            setError(true);
-        }
+        console.log('Début du chargement des données...');
+        const fetchData = async () => {
+            try {
+                console.log('Tentative de récupération du fichier CSV...');
+                const csvFilePath = '/path/to/your/planning.csv'; // Remplace par le chemin correct
+                const jsonData = await CsvToJson(csvFilePath); // Conversion CSV en JSON
+                console.log('Données JSON après conversion:', jsonData);
+
+                const formattedData = jsonData.map(item => ({
+                    ...item,
+                    TIME: item.TIME.replace(/:/g, ':') // Transformation des heures
+                }));
+
+                console.log('Données formatées:', formattedData);
+                setData(formattedData);
+                setLoading(false);
+            } catch (error) {
+                console.error('Erreur lors de la récupération des données:', error);
+                setLoading(false);
+                setError(true);
+            }
+        };
+        fetchData();
     }, []);
+
+
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -85,15 +102,36 @@ const Tables = () => {
         setSelectedRoom(room);
     };
 
-
-    const [selectedRoom, setSelectedRoom] = useState('');
-
     const closeModal = () => {
         setIsModalOpen(false);
     };
 
     if (loading) {
         return <p className="loading-message">Chargement des données...</p>;
+    }
+
+    if (error) {
+        return (
+            <div className="table-container">
+                <table className="error-table">
+                    <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>PROGRAM</th>
+                        <th>COURSE</th>
+                        <th>ROOM</th>
+                        <th>TEACHER</th>
+                        <th>CAMPUS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr className="row-red">
+                        <td colSpan="5">Erreur : Données non disponibles</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        );
     }
 
     return (
@@ -113,7 +151,7 @@ const Tables = () => {
                         <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
                             TEACHER
                         </th>
-                        <th onClick={handleCampusHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
+                        <th onClick={handleCampusHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
                             CAMPUS
                         </th>
                     </tr>
@@ -168,11 +206,10 @@ const Tables = () => {
                 }}
                 contentLabel="Canvas Modal"
             >
-                <Canvas pointPosition={pointPosition} room={selectedRoom}/>
+                <Canvas pointPosition={pointPosition} room={selectedRoom} />
             </Modal>
-
         </div>
     );
-}
+};
 
 export default Tables;

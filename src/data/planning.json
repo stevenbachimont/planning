@@ -171,7 +171,7 @@
     "TIME": "09:00 - 12:00",
     "PROGRAM": "Grande Ecole 3 A",
     "COURSE": "Advanced Economics",
-    "ROOM": "201",
+    "ROOM": "235",
     "TEACHER": "Sophie Martin",
     "CAMPUS": "Atlantic"
   },
@@ -187,7 +187,7 @@
     "TIME": "14:00 - 16:00",
     "PROGRAM": "Grande Ecole 1 C",
     "COURSE": "Digital Marketing",
-    "ROOM": "301",
+    "ROOM": "340",
     "TEACHER": "Camille Dubois",
     "CAMPUS": "Atlantic"
   },
@@ -203,7 +203,7 @@
     "TIME": "08:00 - 10:00",
     "PROGRAM": "Grande Ecole 2 B",
     "COURSE": "Statistics",
-    "ROOM": "106",
+    "ROOM": "441",
     "TEACHER": "Jean Dupont",
     "CAMPUS": "Media"
   },

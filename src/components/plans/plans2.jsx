@@ -4,6 +4,7 @@ import R1 from '../../../assets/r+1.svg';
 import R2 from '../../../assets/r+2.svg';
 import R3 from '../../../assets/r+3.svg';
 import R4 from '../../../assets/r+4.svg';
+import PropTypes from 'prop-types';
 
 const Canvas = ({ pointPosition, room }) => {
     const getImageForRoom = (room) => {
@@ -28,6 +29,7 @@ const Canvas = ({ pointPosition, room }) => {
             return RDC;
         }
     };
+
     return (
         <div className="canvas-container" style={{ position: 'relative' }}>
             <img src={getImageForRoom(room)} alt="Plan" className="plan-svg" />
@@ -40,6 +42,14 @@ const Canvas = ({ pointPosition, room }) => {
             />
         </div>
     );
+};
+
+Canvas.propTypes = {
+    pointPosition: PropTypes.shape({
+        x: PropTypes.number.isRequired,
+        y: PropTypes.number.isRequired,
+    }).isRequired,
+    room: PropTypes.string.isRequired,
 };
 
 export default Canvas;

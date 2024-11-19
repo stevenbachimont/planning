@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './tables.css';
-import planningData from '../../data/AC.json';
+import planningData from '../../data/Export salles AC.json';
 import Canvas from '../plans/plans2.jsx';
 
 const Tables = () => {

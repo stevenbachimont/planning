@@ -1,7 +1,6 @@
-
-
 import './App.css'
 import Tables from "./components/tables/tables3.jsx";
+
 
 function App() {
 

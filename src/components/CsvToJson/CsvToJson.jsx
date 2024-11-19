@@ -1,30 +1,47 @@
-// CsvToJson.jsx
-import Papa from 'papaparse';
+import Papa from "papaparse";
 
-const CsvToJson = async (csvFile) => {
-    return new Promise((resolve, reject) => {
-        Papa.parse(csvFile, {
+export default function CsvToJson() {
+    const saveFile = async (data, fileName) => {
+        const filePath = `data/${fileName}`;
+        try {
+            const writable = await window.showSaveFilePicker({
+                suggestedName: filePath,
+                types: [{
+                    description: 'JSON Files',
+                    accept: {'application/json': ['.json']},
+                }],
+            });
+            const writableStream = await writable.createWritable();
+            await writableStream.write(new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'}));
+            await writableStream.close();
+            console.log('File saved successfully.');
+        } catch (err) {
+            console.error('Error saving file:', err);
+        }
+    };
+
+    const fetchCsvFile = async (filePath) => {
+        const response = await fetch(filePath);
+        const csvText = await response.text();
+        return csvText;
+    };
+
+    const handleFileChange = async () => {
+        const filePath = "src/data/Export salles AC.csv";
+        const csvText = await fetchCsvFile(filePath);
+        Papa.parse(csvText, {
             header: true,
-            delimiter: ';',
-            complete: (result) => {
-                console.log("Données brutes après parsing:", result);
-                if (result.errors.length) {
-                    reject(result.errors);
-                } else {
-                    const jsonData = result.data.map(item => ({
-                        TIME: `${item['Heure Debut']} - ${item['Heure Fin']}`,
-                        ROOM: item['Salle'] || '',
-                        PROGRAM: item['Nom du cours'] || '',
-                        TEACHER: item['Intervenant'] || '',
-                        COURSE: item['Valeur brute champ'] || '',
-                    }));
-                    console.log("Données JSON après formatage:", jsonData);
-                    resolve(jsonData);
-                }
-            },
-            error: (error) => reject(error),
+            complete: async function(results) {
+                console.log("Finished:", results.data);
+                const jsonFileName = "specific_name.json"; // Specify your desired file name here
+                await saveFile(results.data, jsonFileName);
+            }
         });
-    });
-};
+    };
 
-export default CsvToJson;
+    return (
+        <div className="App">
+            <button onClick={handleFileChange}>Convert CSV to JSON</button>
+        </div>
+    );
+}

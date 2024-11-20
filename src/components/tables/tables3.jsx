@@ -51,10 +51,19 @@ const Tables = () => {
         return now < startTime || (now >= startTime && now <= halfHourAfterStart);
     };
 
-    const filteredData = data
+    const sortDataByStartTime = (data) => {
+        return data.sort((a, b) => {
+            const [aHours, aMinutes] = a['Heure Debut'].split(':').map(Number);
+            const [bHours, bMinutes] = b['Heure Debut'].split(':').map(Number);
+            return new Date().setHours(aHours, aMinutes, 0, 0) - new Date().setHours(bHours, bMinutes, 0, 0);
+        });
+    };
+
+    const filteredData = sortDataByStartTime(data
         .filter(item => !filterActive || isCourseOngoing(item['Heure Debut']))
         .filter(item => selectedTeacher ? item['Intervenant'] === selectedTeacher : true)
-        .filter(item => selectedProgram ? item['Valeur brute champ,Libellé.Service'] === selectedProgram : true);
+        .filter(item => selectedProgram ? item['Valeur brute champ,Libellé.Service'] === selectedProgram : true)
+    );
 
     const handleTeacherClick = (teacher) => {
         setSelectedTeacher(teacher === selectedTeacher ? '' : teacher);

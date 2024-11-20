@@ -54,7 +54,7 @@ const Tables = () => {
     const filteredData = data
         .filter(item => !filterActive || isCourseOngoing(item['Heure Debut']))
         .filter(item => selectedTeacher ? item['Intervenant'] === selectedTeacher : true)
-        .filter(item => selectedProgram ? item['Valeur brute champ,'] === selectedProgram : true);
+        .filter(item => selectedProgram ? item['Valeur brute champ,Libellé.Service'] === selectedProgram : true);
 
     const handleTeacherClick = (teacher) => {
         setSelectedTeacher(teacher === selectedTeacher ? '' : teacher);
@@ -102,26 +102,33 @@ const Tables = () => {
                     <thead>
                     <tr>
                         <th>TIME</th>
-                        <th>PROGRAM</th>
-                        <th>COURSE</th>
-                        <th>ROOM</th>
-                        <th onClick={handleTeacherHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
-                            TEACHER
-                        </th>
-                        <th onClick={handleProgramHeaderClick} style={{ cursor: 'pointer', color: 'yellow' }}>
+                        <th onClick={handleProgramHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
                             PROGRAM
                         </th>
+                        <th>COURSE</th>
+                        <th>ROOM</th>
+                        <th onClick={handleTeacherHeaderClick} style={{cursor: 'pointer', color: 'yellow' }}>
+                            TEACHER
+                        </th>
+
                     </tr>
                     </thead>
                     <tbody>
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
                             <td>{`${item['Heure Debut']} - ${item['Heure Fin']}`}</td>
-                            <td>{item['Valeur brute champ,']}</td>
+                            <td
+                                onClick={() => handleProgramClick(item['Valeur brute champ,Libellé.Service'])}
+                                style={{
+                                    cursor: 'pointer',
+                                    color: item['Valeur brute champ,Libellé.Service'] === selectedProgram ? 'blue' : 'black'
+                                }}
+                            >
+                                {item['Valeur brute champ,Libellé.Service']}</td>
                             <td>{item['Nom du cours']}</td>
                             <td
                                 onClick={() => openModal(item['Salle'])}
-                                style={{ cursor: 'pointer', color: 'black' }}
+                                style={{cursor: 'pointer', color: 'black'}}
                             >
                                 {item['Salle']}
                             </td>
@@ -134,14 +141,7 @@ const Tables = () => {
                             >
                                 {item['Intervenant']}
                             </td>
-                            <td
-                                onClick={() => handleProgramClick(item['Valeur brute champ,'])}
-                                style={{
-                                    cursor: 'pointer',
-                                    color: item['Valeur brute champ,'] === selectedProgram ? 'blue' : 'black'
-                                }}
-                            >
-                                {item['Valeur brute champ,']}</td>
+
                         </tr>
                     ))}
                     </tbody>

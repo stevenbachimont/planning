@@ -29,6 +29,7 @@ body::before {
     width: 100%;
     overflow-x: auto;
     margin: 1rem 0;
+    margin-bottom: 50px;
     border-radius: 10px;
     position: relative;
     z-index: 2;
@@ -45,12 +46,13 @@ body::before {
     top: 0;
     background-color: rgb(77, 23, 228);
     z-index: 1;
+    width: 100%;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
-
 }
 
 th, td {
@@ -58,6 +60,7 @@ th, td {
     text-align: left;
     border: 1px solid #5e5c5c;
 }
+
 
 thead {
     background-color: #01051e;
@@ -102,4 +105,25 @@ thead {
     width: 1000px;
     height: 1000px;
     z-index: 1001;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

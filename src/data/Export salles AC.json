@@ -1,275 +1,211 @@
-[
+﻿[
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "131",
-    "Nom du cours": "Advanced marketing research",
-    "Intervenant": "MIFSUD MATTHIEU",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "ISM 2: Data analysis & Business intelligence",
+    "Intervenant": "FORGET Thierry",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "131",
-    "Nom du cours": "Advanced marketing research",
-    "Intervenant": "MIFSUD MATTHIEU",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "ISM 2: Data analysis & Business intelligence",
+    "Intervenant": "FORGET Thierry",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "131",
-    "Nom du cours": "Techniques Quantitatives de Gestion",
-    "Intervenant": "LEFIEVRE VALERIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Industrial BI",
+    "Intervenant": "FORGET Thierry",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor / Communication / SCOM Bachelor / Sciences Com"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "131",
-    "Nom du cours": "Techniques Quantitatives de Gestion",
-    "Intervenant": "LEFIEVRE VALERIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Industrial BI",
+    "Intervenant": "FORGET Thierry",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor / Communication / SCOM Bachelor / Sciences Com"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "135",
-    "Nom du cours": "Data & Business Analytics",
-    "Intervenant": "SEDDON JONATHAN",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "Comptabilité Financière",
+    "Intervenant": "MOINARD CHRISTIAN",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "135",
-    "Nom du cours": "Data & Business Analytics",
-    "Intervenant": "SEDDON JONATHAN",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "Financial Markets",
+    "Intervenant": "RONCHETTI Diego",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "135",
-    "Nom du cours": "Data & Business Analytics",
-    "Intervenant": "SEDDON JONATHAN",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "135",
-    "Nom du cours": "Data & Business Analytics",
-    "Intervenant": "SEDDON JONATHAN",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "Enjeux Économiques du Monde Contemporain : LÉconomie en Transition",
+    "Intervenant": "BROWN Adrian",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "137",
-    "Nom du cours": "Multi-capital Accounting and ESG Ratings",
-    "Intervenant": "TAIBI SOUAD",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
+    "Nom du cours": "Strategic management",
+    "Intervenant": "SU Peiran",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "137",
-    "Nom du cours": "Introduction to Research Methods",
-    "Intervenant": "BARBIER SAINTE MARIE ANNE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "137",
-    "Nom du cours": "Materiality, Reporting and Auditing",
-    "Intervenant": "AVETISYAN EMMA",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "137",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "BONANSCO-DANIEL Francesca",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "139",
-    "Nom du cours": "Management commercial",
-    "Intervenant": "BOUCHET Marie-laure",
-    "Valeur brute champ,Libell�.Service": ""
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "139",
-    "Nom du cours": "Management commercial",
-    "Intervenant": "BOUCHET Marie-laure",
-    "Valeur brute champ,Libell�.Service": ""
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "139",
-    "Nom du cours": "Culture Allemande",
-    "Intervenant": "DEVEAUX Charlotte",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "139",
-    "Nom du cours": "Culture Allemande",
-    "Intervenant": "DEVEAUX Charlotte",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "143",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "ROMERO CABALLERO Gleydiz carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "143",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "RIVERA GARCIA Inmaculada",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "143",
-    "Nom du cours": "Advanced English Programme",
-    "Intervenant": "GUEZINGAR Miranda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "143",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "NAVARRO MENA Madeleine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Strategic management",
+    "Intervenant": "SU Peiran",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "18:15:00",
     "Heure Fin": "20:15:00",
-    "Salle": "143",
-    "Nom du cours": "Fran�ais (Fall 2024)",
-    "Intervenant": "BOURGEAIS Isabelle",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "145",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "SALAZAR DELGADO Carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Salle": "137",
+    "Nom du cours": "Soutien Allemand",
+    "Intervenant": "WORCH Lisann",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
-    "Salle": "145",
+    "Salle": "139",
     "Nom du cours": "Espagnol",
-    "Intervenant": "NAVARRO MENA Madeleine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Intervenant": "BONANSCO-DANIEL Francesca",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
-    "Salle": "145",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "ROMERO CABALLERO Gleydiz carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "139",
+    "Nom du cours": "Marchés financiers",
+    "Intervenant": "MAURICE STEPHANIE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "143",
+    "Nom du cours": "Advanced English Programme",
+    "Intervenant": "DUBOURG Claire",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "143",
+    "Nom du cours": "Standard English Programme ",
+    "Intervenant": "BRIEND Tersi",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
+    "Salle": "143",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "DENIS Christina",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
     "Salle": "145",
     "Nom du cours": "Standard English Programme ",
-    "Intervenant": "GUEZINGAR Miranda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "147",
-    "Nom du cours": "Strategic management",
-    "Intervenant": "SU Peiran",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Intervenant": "BRIEND Tersi",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
-    "Salle": "147",
-    "Nom du cours": "Strategic management",
-    "Intervenant": "SU Peiran",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Salle": "145",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "COCAUD Sophie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
-    "Salle": "147",
-    "Nom du cours": "Sustainable Compliance for Business",
-    "Intervenant": "LONDEIX Mathieu",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Salle": "145",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "COCAUD Sophie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
+    "Salle": "145",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "DUBOURG Claire",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
     "Salle": "147",
-    "Nom du cours": "Sustainable Compliance for Business",
-    "Intervenant": "LONDEIX Mathieu",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Industry 4.0, circular economy & sustainability",
+    "Intervenant": "SAUNIER Matthieu",
+    "Valeur brute champ,Libellé.Service": "DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "147",
+    "Nom du cours": "Analyse financière",
+    "Intervenant": "DUPERRAY Estelle",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "231",
-    "Nom du cours": "Strategizing and ethical challenges",
-    "Intervenant": "CASTRO Jean-Luc",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Corporate Issuers",
+    "Intervenant": "REES Michael",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 3A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "231",
-    "Nom du cours": "Strategizing and ethical challenges",
-    "Intervenant": "CASTRO Jean-Luc",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Equity Investments",
+    "Intervenant": "REES Michael",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 3A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "231",
-    "Nom du cours": "Financial analysis",
-    "Intervenant": "ROUSSEAU Simon",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Economics",
+    "Intervenant": "REES Michael",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 3A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "231",
     "Nom du cours": "Economic issues in Today's World : The Economy in Transition",
-    "Intervenant": "VALAYDEN Ananda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Intervenant": "BROWN Adrian",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "235",
-    "Nom du cours": "Marketing digital et r�seaux sociaux",
-    "Intervenant": "PINEAU Jean-Christophe",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Customer experience and branding",
+    "Intervenant": "SCHEGERIN Matyas",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
@@ -277,799 +213,847 @@
     "Salle": "235",
     "Nom du cours": "Economic issues in Today's World : The Economy in Transition",
     "Intervenant": "VALAYDEN Ananda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "235",
-    "Nom du cours": "Introduction to ecological and social transition",
-    "Intervenant": "VERGNOT Paul",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "237",
-    "Nom du cours": "Introduction � la Transition Ecologique et Sociale",
-    "Intervenant": "VERGNOT Paul",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "237",
-    "Nom du cours": "Business Simulation",
-    "Intervenant": "VYAS Hitesh",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "237",
-    "Nom du cours": "Economic issues in Today's World : The Economy in Transition",
-    "Intervenant": "VALAYDEN Ananda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "238",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "BONANSCO-DANIEL Francesca",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "238",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "PEREIRA MARTINEZ Francisco",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "238",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "PEREIRA MARTINEZ Francisco",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "239",
-    "Nom du cours": "Management control",
-    "Intervenant": "MYLLYMAKI Emma-Riikka",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "239",
-    "Nom du cours": "Management control",
-    "Intervenant": "BONIN Florence",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "239",
-    "Nom du cours": "Fondamentaux du Droit",
-    "Intervenant": "AUDRAN-LY ANNE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Introduction au Marketing 1",
+    "Intervenant": "BLANCHETIERE Béatrice",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "18:15:00",
     "Heure Fin": "20:15:00",
-    "Salle": "239",
-    "Nom du cours": "Soutien Espagnol",
-    "Intervenant": "BONANSCO-DANIEL Francesca",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "241",
-    "Nom du cours": "Advanced English Programme",
-    "Intervenant": "MELGOZA Danielle",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "235",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "DRUNEAU Virginie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
-    "Salle": "243",
-    "Nom du cours": "Customer experience and branding",
-    "Intervenant": "SCHEGERIN Matyas",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "243",
-    "Nom du cours": "Introduction to Marketing 1",
-    "Intervenant": "SCHEGERIN Matyas",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "243",
-    "Nom du cours": "Introduction to Marketing 1",
-    "Intervenant": "ROUX MICHAEL",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "247",
-    "Nom du cours": "Techniques Quantitatives de Gestion",
-    "Intervenant": "LEFIEVRE VALERIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "247",
-    "Nom du cours": "CSR and Global Sourcing ",
-    "Intervenant": "RUAMPS Chin",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "247",
-    "Nom du cours": "Management strat�gique",
-    "Intervenant": "STERVINOU SANDRINE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "254",
-    "Nom du cours": "Allemand",
-    "Intervenant": "WOLKE Maria",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "254",
-    "Nom du cours": "Allemand",
-    "Intervenant": "BLANCHARD Hyun joo",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "254",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "GREBERT MARTHA",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "331",
+    "Salle": "237",
     "Nom du cours": "Economic issues in Today's World : The Economy in Transition",
     "Intervenant": "VALAYDEN Ananda",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
-    "Salle": "331",
-    "Nom du cours": "Fondamentaux du Droit",
-    "Intervenant": "TASSOU-CADEAU C�cile",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "237",
+    "Nom du cours": "Enjeux Économiques du Monde Contemporain : LÉconomie en Transition",
+    "Intervenant": "BROWN Adrian",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
-    "Salle": "331",
-    "Nom du cours": "Comptabilit� Financi�re",
-    "Intervenant": "ZIAN HOUDA",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "237",
+    "Nom du cours": "Economic issues in Today's World : The Economy in Transition",
+    "Intervenant": "VALAYDEN Ananda",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "331",
-    "Nom du cours": "International Negotiation",
-    "Intervenant": "KAPITSKAIA OLGA",
-    "Valeur brute champ,Libell�.Service": "DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM"
+    "Heure Debut": "18:15:00",
+    "Heure Fin": "20:15:00",
+    "Salle": "237",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "GRENIER Sarah",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
-    "Salle": "335",
-    "Nom du cours": "Fondamentaux du Droit",
-    "Intervenant": "TASSOU-CADEAU C�cile",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "238",
+    "Nom du cours": "Anglais",
+    "Intervenant": "REHE-HUMEAU Juliana",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
-    "Salle": "335",
-    "Nom du cours": "Marketing digital et r�seaux sociaux",
-    "Intervenant": "PINEAU Jean-Christophe",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Salle": "238",
+    "Nom du cours": "Anglais",
+    "Intervenant": "REHE-HUMEAU Juliana",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
-    "Salle": "335",
+    "Salle": "238",
+    "Nom du cours": "Anglais",
+    "Intervenant": "REHE-HUMEAU Juliana",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "238",
+    "Nom du cours": "Culture Hispanique",
+    "Intervenant": "PEREIRA MARTINEZ Francisco",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "239",
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "HONSEL Tiphaine",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "239",
+    "Nom du cours": "Marchés financiers",
+    "Intervenant": "MAURICE STEPHANIE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "239",
+    "Nom du cours": "Simulation d'entreprise",
+    "Intervenant": "LEFIEVRE VALERIE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "239",
+    "Nom du cours": "Simulation d'entreprise",
+    "Intervenant": "LEFIEVRE VALERIE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "243",
+    "Nom du cours": "Business Simulation",
+    "Intervenant": "VYAS Hitesh",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "243",
+    "Nom du cours": "Introduction au Marketing 1",
+    "Intervenant": "BLANCHETIERE Béatrice",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "243",
+    "Nom du cours": "Culture Hispanique",
+    "Intervenant": "BONANSCO-DANIEL Francesca",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "243",
     "Nom du cours": "Financial analysis",
     "Intervenant": "MEZERET THIERRY",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "247",
+    "Nom du cours": "Ecology & Biodiversity : Dynamics & Auditing",
+    "Intervenant": "TAIBI SOUAD",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "247",
+    "Nom du cours": "Introduction to Marketing 1",
+    "Intervenant": "DUMAZERT ZAMMIT Florence",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "247",
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "HONSEL Tiphaine",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "247",
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "HONSEL Tiphaine",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "250",
+    "Nom du cours": "Culture Allemande",
+    "Intervenant": "WOLKE Maria",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "254",
+    "Nom du cours": "Espagnol",
+    "Intervenant": "RIVERA GARCIA Inmaculada",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "254",
+    "Nom du cours": "Espagnol",
+    "Intervenant": "RIVERA GARCIA Inmaculada",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "254",
+    "Nom du cours": "Espagnol",
+    "Intervenant": "NAVARRO MENA Madeleine",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "331",
+    "Nom du cours": "Introduction à la Transition Ecologique et Sociale",
+    "Intervenant": "VAILLAND Eloïse",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "331",
+    "Nom du cours": "Business Simulation",
+    "Intervenant": "VYAS Hitesh",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "331",
+    "Nom du cours": "Analyse financière",
+    "Intervenant": "ROUSSEL Juliette",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "331",
+    "Nom du cours": "Analyse financière",
+    "Intervenant": "ROUSSEL Juliette",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "335",
+    "Nom du cours": "Expérience client et image de marque",
+    "Intervenant": "DEBSKI Valérie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "335",
+    "Nom du cours": "Customer experience and branding",
+    "Intervenant": "PINEAU Jean-Christophe",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "335",
+    "Nom du cours": "Customer experience and branding",
+    "Intervenant": "PINEAU Jean-Christophe",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "335",
-    "Nom du cours": "Financial analysis",
-    "Intervenant": "ROUSSEAU Simon",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "338",
-    "Nom du cours": "Anglais",
-    "Intervenant": "TAYLOR ANDREW",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "338",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "SALAZAR DELGADO Carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "15:00:00",
-    "Heure Fin": "17:00:00",
-    "Salle": "338",
-    "Nom du cours": "Digital Transformation",
-    "Intervenant": "EL AMRANI REDOUANE",
-    "Valeur brute champ,Libell�.Service": "DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "339",
-    "Nom du cours": "Chinese language 2",
-    "Intervenant": "GUNST Jianping",
-    "Valeur brute champ,Libell�.Service": "Audencia Bachelor"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "339",
-    "Nom du cours": "Chinese language 2",
-    "Intervenant": "GUNST Jianping",
-    "Valeur brute champ,Libell�.Service": "Audencia Bachelor"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "340",
-    "Nom du cours": "Anglais",
-    "Intervenant": "GROSS Nancy",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "340",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "ROMERO CABALLERO Gleydiz carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "340",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "SALAZAR DELGADO Carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "340",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "SALAZAR DELGADO Carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "343",
-    "Nom du cours": "Comptabilit� Financi�re",
-    "Intervenant": "HONSEL Tiphaine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "343",
-    "Nom du cours": "Contr�le de gestion",
-    "Intervenant": "ZIAN HOUDA",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "343",
-    "Nom du cours": "Business Simulation",
-    "Intervenant": "VYAS Hitesh",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "343",
-    "Nom du cours": "Fondamentaux du Droit",
-    "Intervenant": "AUDRAN-LY ANNE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "346",
-    "Nom du cours": "Allemand",
-    "Intervenant": "WOLKE Maria",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "347",
-    "Nom du cours": "Contr�le de gestion",
-    "Intervenant": "CHARLES Fran�ois",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "347",
-    "Nom du cours": "Simulation d'entreprise",
-    "Intervenant": "MATON ERIC",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "347",
-    "Nom du cours": "Simulation d'entreprise",
-    "Intervenant": "MATON ERIC",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "347",
-    "Nom du cours": "Comptabilit� Financi�re",
-    "Intervenant": "ZIAN HOUDA",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "35",
-    "Nom du cours": "Standard English Programme ",
-    "Intervenant": "CONWAY Danielle",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "35",
-    "Nom du cours": "Standard English Programme ",
-    "Intervenant": "CONWAY Danielle",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "35",
-    "Nom du cours": "Standard English Programme ",
-    "Intervenant": "BERNADOU Marina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "35",
-    "Nom du cours": "Standard English Programme ",
-    "Intervenant": "BERNADOU Marina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "350",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "PEREIRA MARTINEZ Francisco",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "350",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "PEREIRA MARTINEZ Francisco",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "350",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "NAVARRO MENA Madeleine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "350",
-    "Nom du cours": "Espagnol",
-    "Intervenant": "RIVERA GARCIA Inmaculada",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Customer experience and branding",
+    "Intervenant": "PINEAU Jean-Christophe",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "18:15:00",
     "Heure Fin": "20:15:00",
+    "Salle": "335",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "PALIS Céline",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "338",
+    "Nom du cours": "Supply chain management and Big Data",
+    "Intervenant": "AUBERT-BAUDEQUIN Catherine",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "338",
+    "Nom du cours": "Culture Hispanique",
+    "Intervenant": "PEREIRA MARTINEZ Francisco",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "339",
+    "Nom du cours": "Supply chain management and Big Data",
+    "Intervenant": "AUBERT-BAUDEQUIN Catherine",
+    "Valeur brute champ,Libellé.Service": "Audencia Bachelor"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "339",
+    "Nom du cours": "Fondamentaux du Droit",
+    "Intervenant": "AUDRAN-LY ANNE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "339",
+    "Nom du cours": "Digital Transformation",
+    "Intervenant": "EL AMRANI REDOUANE",
+    "Valeur brute champ,Libellé.Service": "DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A"
+  },
+  {
+    "Heure Debut": "18:15:00",
+    "Heure Fin": "20:15:00",
+    "Salle": "339",
+    "Nom du cours": "Soutien Allemand",
+    "Intervenant": "FEIGE-LANGONNET Ludmila",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "340",
+    "Nom du cours": "Anglais",
+    "Intervenant": "TAYLOR ANDREW",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "340",
+    "Nom du cours": "Advanced English Programme",
+    "Intervenant": "DUBOURG Claire",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "340",
+    "Nom du cours": "Anglais",
+    "Intervenant": "LIGTENBERG Tina",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "340",
+    "Nom du cours": "Anglais",
+    "Intervenant": "LIGTENBERG Tina",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "343",
+    "Nom du cours": "Strategizing and ethical challenges",
+    "Intervenant": "CASTRO Jean-Luc",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "343",
+    "Nom du cours": "Ecology & Biodiversity : Dynamics & Auditing",
+    "Intervenant": "TAIBI SOUAD",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "343",
+    "Nom du cours": "Strategic management",
+    "Intervenant": "SU Peiran",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "343",
+    "Nom du cours": "Marchés financiers",
+    "Intervenant": "MAURICE STEPHANIE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "18:15:00",
+    "Heure Fin": "20:15:00",
+    "Salle": "343",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "QUELIER Alizée",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "346",
+    "Nom du cours": "Anglais",
+    "Intervenant": "GROSS Nancy",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "346",
+    "Nom du cours": "Anglais",
+    "Intervenant": "GROSS Nancy",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "347",
+    "Nom du cours": "Techniques Quantitatives de Gestion",
+    "Intervenant": "BATRAK OLGA",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "347",
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "HONSEL Tiphaine",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "347",
+    "Nom du cours": "Ecology & Biodiversity : Dynamics & Auditing",
+    "Intervenant": "TAIBI SOUAD",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "347",
+    "Nom du cours": "Comptabilité Financière",
+    "Intervenant": "GEYER DOMINIQUE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "18:15:00",
+    "Heure Fin": "20:15:00",
+    "Salle": "347",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "BOURGEAIS Isabelle",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "35",
+    "Nom du cours": "Espagnol",
+    "Intervenant": "BONANSCO-DANIEL Francesca",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "35",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "DENIS Christina",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "35",
+    "Nom du cours": "Foundational English Programme ",
+    "Intervenant": "DENIS Christina",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
     "Salle": "350",
-    "Nom du cours": "Soutien Espagnol",
+    "Nom du cours": "Espagnol",
     "Intervenant": "SALAZAR DELGADO Carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "350",
+    "Nom du cours": "Anglais",
+    "Intervenant": "GROSS Nancy",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "16:15:00",
+    "Heure Fin": "18:15:00",
+    "Salle": "350",
+    "Nom du cours": "Anglais",
+    "Intervenant": "COCAUD Sophie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "351",
-    "Nom du cours": "Management strat�gique",
-    "Intervenant": "SAADNA Miloud",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Management control",
+    "Intervenant": "MYLLYMAKI Emma-Riikka",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "351",
-    "Nom du cours": "International Negotiation",
-    "Intervenant": "KAPITSKAIA OLGA",
-    "Valeur brute champ,Libell�.Service": "DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM"
+    "Nom du cours": "Contrôle de gestion",
+    "Intervenant": "MOINARD CHRISTIAN",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "351",
-    "Nom du cours": "Customer experience and branding",
-    "Intervenant": "SCHEGERIN Matyas",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Business Simulation",
+    "Intervenant": "VYAS Hitesh",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "351",
-    "Nom du cours": "Customer experience and branding",
-    "Intervenant": "SCHEGERIN Matyas",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Strategic management",
+    "Intervenant": "SU Peiran",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "18:15:00",
+    "Heure Fin": "20:15:00",
+    "Salle": "351",
+    "Nom du cours": "Français (Fall 2024)",
+    "Intervenant": "WEISSMANN Caroline",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "09:00:00",
     "Heure Fin": "12:30:00",
     "Salle": "435",
-    "Nom du cours": "Fondamentaux de la finance en entreprise ",
-    "Intervenant": "MOINARD CHRISTIAN",
-    "Valeur brute champ,Libell�.Service": "Formation Continue"
+    "Nom du cours": "Pilotage de la transformation: les principes de la CSRD",
+    "Intervenant": "SCUILLER Carole",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "17:30:00",
     "Salle": "435",
-    "Nom du cours": "Fondamentaux de la finance en entreprise ",
-    "Intervenant": "MOINARD CHRISTIAN",
-    "Valeur brute champ,Libell�.Service": "Formation Continue"
+    "Nom du cours": "La transformation au niveau de la gouvernance",
+    "Intervenant": "GIRARD-GUERRAUD CARINE",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "437",
+    "Nom du cours": "Financial Markets",
+    "Intervenant": "RONCHETTI Diego",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "437",
-    "Nom du cours": "Climate Science for Business",
-    "Intervenant": "ESPAZE Cl�ment",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Analyse financière",
+    "Intervenant": "DUPERRAY Estelle",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "437",
-    "Nom du cours": "Management control",
-    "Intervenant": "BONIN Florence",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "ROUSSEAU Simon",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "437",
-    "Nom du cours": "Management control",
-    "Intervenant": "BONIN Florence",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "ROUSSEAU Simon",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "441",
-    "Nom du cours": "Strategic management",
-    "Intervenant": "CLAV� Christophe claude",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "MEZERET THIERRY",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "441",
-    "Nom du cours": "Strategic management",
-    "Intervenant": "CLAV� Christophe claude",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Expérience client et image de marque",
+    "Intervenant": "DEBSKI Valérie",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "441",
-    "Nom du cours": "Impact Finance and Management Control",
-    "Intervenant": "TAIBI SOUAD",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "441",
-    "Nom du cours": "Impact Finance and Management Control",
-    "Intervenant": "TAIBI SOUAD",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "HSISSOU Hind",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "443",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "BONANSCO-DANIEL Francesca",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Fondamentaux du Droit",
+    "Intervenant": "AUDRAN-LY ANNE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "443",
-    "Nom du cours": "History of Human Societies : Human Era and Human Organizations",
-    "Intervenant": "NOEL LAURENT",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Strategizing and ethical challenges",
+    "Intervenant": "CASTRO Jean-Luc",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "443",
-    "Nom du cours": "Analyse financi�re",
-    "Intervenant": "GUITTON Didier",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Strategizing and ethical challenges",
+    "Intervenant": "CASTRO Jean-Luc",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
     "Salle": "443",
-    "Nom du cours": "Analyse financi�re",
-    "Intervenant": "GUITTON Didier",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Strategizing and ethical challenges",
+    "Intervenant": "CASTRO Jean-Luc",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
+    "Heure Debut": "09:30:00",
+    "Heure Fin": "13:00:00",
     "Salle": "447",
-    "Nom du cours": "Management strat�gique",
-    "Intervenant": "STERVINOU SANDRINE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Manager son équipe",
+    "Intervenant": "KAPITSKAIA OLGA",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
+    "Heure Fin": "17:30:00",
     "Salle": "447",
-    "Nom du cours": "Management control",
-    "Intervenant": "MYLLYMAKI Emma-Riikka",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "447",
-    "Nom du cours": "Strategic management",
-    "Intervenant": "HACHE Thibault",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Manager son équipe",
+    "Intervenant": "KAPITSKAIA OLGA",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "09:00:00",
     "Heure Fin": "12:00:00",
     "Salle": "451",
-    "Nom du cours": "Financial Management",
-    "Intervenant": "MEZERET THIERRY",
-    "Valeur brute champ,Libell�.Service": "Formation Continue / MBA"
+    "Nom du cours": "Data analytics",
+    "Intervenant": "KALAITZOGLOU IORDANIS",
+    "Valeur brute champ,Libellé.Service": "Formation Continue / MBA"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "17:30:00",
     "Salle": "451",
-    "Nom du cours": "Data analytics",
-    "Intervenant": "KALAITZOGLOU IORDANIS",
-    "Valeur brute champ,Libell�.Service": "Formation Continue / MBA"
+    "Nom du cours": "Human Resources Management",
+    "Intervenant": "NASCHBERGER CHRISTINE",
+    "Valeur brute champ,Libellé.Service": "Formation Continue / MBA"
+  },
+  {
+    "Heure Debut": "08:00:00",
+    "Heure Fin": "09:00:00",
+    "Salle": "452",
+    "Nom du cours": "Développer la dynamique du groupement GIPHAR",
+    "Intervenant": "BERG Laurence",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "09:00:00",
     "Heure Fin": "12:30:00",
     "Salle": "452",
-    "Nom du cours": "Manager et piloter les projets en officine",
-    "Intervenant": "SCHNEIDER Denis",
-    "Valeur brute champ,Libell�.Service": "Formation Continue"
+    "Nom du cours": "Développer la dynamique du groupement GIPHAR",
+    "Intervenant": "BERG Laurence",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "17:30:00",
     "Salle": "452",
-    "Nom du cours": "Manager et piloter les projets en officine",
-    "Intervenant": "SCHNEIDER Denis",
-    "Valeur brute champ,Libell�.Service": "Formation Continue"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "49",
-    "Nom du cours": "Fondamentaux du Droit",
-    "Intervenant": "GEORGES Emmanuel",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "49",
-    "Nom du cours": "Introduction au Marketing 1",
-    "Intervenant": "DEVYS Delphine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "49",
-    "Nom du cours": "Introduction au Marketing 1",
-    "Intervenant": "DEVYS Delphine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "16:15:00",
-    "Heure Fin": "18:15:00",
-    "Salle": "49",
-    "Nom du cours": "Customer experience and branding",
-    "Intervenant": "DEVYS Delphine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "A170",
-    "Nom du cours": "International Negotiation",
-    "Intervenant": "KAPITSKAIA OLGA",
-    "Valeur brute champ,Libell�.Service": "DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM"
+    "Nom du cours": "Développer la dynamique du groupement GIPHAR",
+    "Intervenant": "BERG Laurence",
+    "Valeur brute champ,Libellé.Service": "Formation Continue"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A262",
-    "Nom du cours": "Contr�le de gestion",
-    "Intervenant": "CHARLES Fran�ois",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Techniques Quantitatives de Gestion",
+    "Intervenant": "BATRAK OLGA",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "A262",
+    "Nom du cours": "Contrôle de gestion",
+    "Intervenant": "CHARLES François",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "A270",
+    "Nom du cours": "Analyse financière",
+    "Intervenant": "DUPERRAY Estelle",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A270",
-    "Nom du cours": "March�s financiers",
-    "Intervenant": "MAURICE STEPHANIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Financial analysis",
+    "Intervenant": "MEZERET THIERRY",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "A270",
-    "Nom du cours": "March�s financiers",
-    "Intervenant": "MAURICE STEPHANIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Techniques Quantitatives de Gestion",
+    "Intervenant": "BATRAK OLGA",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A480",
-    "Nom du cours": "Comptabilit� Financi�re",
-    "Intervenant": "HONSEL Tiphaine",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Management control",
+    "Intervenant": "MYLLYMAKI Emma-Riikka",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
     "Salle": "A480",
-    "Nom du cours": "Contr�le de gestion",
-    "Intervenant": "CHARLES Fran�ois",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Nom du cours": "Comptabilité Financière",
+    "Intervenant": "GEYER DOMINIQUE",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A54",
-    "Nom du cours": "Introduction to ecological and social transition",
-    "Intervenant": "VERGNOT Paul",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Introduction à la Transition Ecologique et Sociale",
+    "Intervenant": "VAILLAND Eloïse",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
+    "Salle": "A70",
+    "Nom du cours": "Green Logistics Management",
+    "Intervenant": "MEQDADI Osama",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 3A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A70",
-    "Nom du cours": "Techniques Quantitatives de Gestion",
-    "Intervenant": "LEFIEVRE VALERIE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
-  },
-  {
-    "Heure Debut": "14:00:00",
-    "Heure Fin": "16:00:00",
-    "Salle": "A70",
-    "Nom du cours": "Introduction � la Transition Ecologique et Sociale",
-    "Intervenant": "MAILLET JOSE",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Green Logistics Management",
+    "Intervenant": "MEQDADI Osama",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 3A"
   },
   {
     "Heure Debut": "08:15:00",
     "Heure Fin": "10:15:00",
     "Salle": "A72",
-    "Nom du cours": "Advanced English Programme",
-    "Intervenant": "MELGOZA Danielle",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Anglais",
+    "Intervenant": "MEEHAN Shaun",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "10:30:00",
     "Heure Fin": "12:30:00",
     "Salle": "A72",
     "Nom du cours": "Anglais",
-    "Intervenant": "DUBOURG Claire",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "08:15:00",
-    "Heure Fin": "10:15:00",
-    "Salle": "A75",
-    "Nom du cours": "Anglais",
-    "Intervenant": "DUBOURG Claire",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
-  },
-  {
-    "Heure Debut": "10:30:00",
-    "Heure Fin": "12:30:00",
-    "Salle": "A75",
-    "Nom du cours": "Culture Allemande",
-    "Intervenant": "BLANCHARD Hyun joo",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Intervenant": "MEEHAN Shaun",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "14:00:00",
     "Heure Fin": "16:00:00",
-    "Salle": "A75",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "BONANSCO-DANIEL Francesca",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Salle": "A72",
+    "Nom du cours": "Anglais",
+    "Intervenant": "LUCAS Elnette",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   },
   {
     "Heure Debut": "16:15:00",
     "Heure Fin": "18:15:00",
+    "Salle": "A72",
+    "Nom du cours": "Culture Allemande",
+    "Intervenant": "WOLKE Maria",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
+  },
+  {
+    "Heure Debut": "08:15:00",
+    "Heure Fin": "10:15:00",
     "Salle": "A75",
-    "Nom du cours": "Culture Hispanique",
-    "Intervenant": "ROMERO CABALLERO Gleydiz carolina",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 1A"
+    "Nom du cours": "Anglais",
+    "Intervenant": "LUCAS Elnette",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "10:30:00",
+    "Heure Fin": "12:30:00",
+    "Salle": "A75",
+    "Nom du cours": "Anglais",
+    "Intervenant": "LUCAS Elnette",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
+  },
+  {
+    "Heure Debut": "14:00:00",
+    "Heure Fin": "16:00:00",
+    "Salle": "A75",
+    "Nom du cours": "Culture Allemande",
+    "Intervenant": "BORCK Katja",
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 1A"
   },
   {
     "Heure Debut": "18:15:00",
@@ -1077,6 +1061,6 @@
     "Salle": "A75",
     "Nom du cours": "Soutien Espagnol",
     "Intervenant": "SERGENT Iris margarita",
-    "Valeur brute champ,Libell�.Service": "Grande Ecole 2A"
+    "Valeur brute champ,Libellé.Service": "Grande Ecole 2A"
   }
 ]

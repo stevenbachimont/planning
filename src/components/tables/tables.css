@@ -104,12 +104,34 @@ thead {
     background-color: #c65656;
 }
 
-.ReactModal__Content {
-    width: 1000px;
-    height: 1000px;
-    z-index: 1001;
+.ReactModal__Overlay.active {
+    display: flex;
 }
 
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5) translate(-50%, -50%);
+        opacity: 0;
+        transform-origin: center;
+    }
+    100% {
+        transform: scale(1) translate(-50%, -50%);
+        opacity: 1;
+        transform-origin: center;
+    }
+}
+
+.ReactModal__Content {
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1001;
+    animation: zoomIn 1s ease-in-out;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
 
 ::-webkit-scrollbar {
     width: 12px;

@@ -87,6 +87,11 @@ const Tables = () => {
         setIsModalOpen(false);
     };
 
+    const formatTime = (time) => {
+        const [hours, minutes] = time.split(':');
+        return `${hours}:${minutes}`;
+    };
+
     if (loading) {
         return <p className="loading-message">Chargement des données...</p>;
     }
@@ -107,7 +112,7 @@ const Tables = () => {
                         </th>
                         <th>COURSE</th>
                         <th>ROOM</th>
-                        <th onClick={handleTeacherHeaderClick} style={{cursor: 'pointer', color: 'yellow' }}>
+                        <th onClick={handleTeacherHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
                             TEACHER
                         </th>
 
@@ -116,7 +121,7 @@ const Tables = () => {
                     <tbody>
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
-                            <td>{`${item['Heure Debut']} - ${item['Heure Fin']}`}</td>
+                            <td>{`${formatTime(item['Heure Debut'])} - ${formatTime(item['Heure Fin'])}`}</td>
                             <td
                                 onClick={() => handleProgramClick(item['Valeur brute champ,Libellé.Service'])}
                                 style={{
@@ -141,7 +146,6 @@ const Tables = () => {
                             >
                                 {item['Intervenant']}
                             </td>
-
                         </tr>
                     ))}
                     </tbody>
@@ -169,7 +173,7 @@ const Tables = () => {
                 }}
                 contentLabel="Canvas Modal"
             >
-                <Canvas pointPosition={pointPosition} room={selectedRoom} />
+                <Canvas pointPosition={pointPosition} room={selectedRoom}/>
             </Modal>
         </div>
     );

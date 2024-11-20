@@ -27,13 +27,16 @@ body::before {
 
 .table-container {
     width: 100%;
-    overflow-x: auto;
     margin: 1rem 0;
-    margin-bottom: 50px;
     border-radius: 10px;
     position: relative;
     z-index: 2;
+    max-height: 90vh;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 .table-scroll {
     max-height: 800px;
@@ -119,11 +122,11 @@ thead {
 
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background:  rgba(21, 101, 179, 0.46);
     border-radius: 10px;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(21, 101, 179);
 }

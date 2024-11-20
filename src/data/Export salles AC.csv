@@ -1,136 +1,134 @@
 Heure Debut;Heure Fin;Salle;Nom du cours;Intervenant;Valeur brute champ,Libellé.Service
-08:15:00;10:15:00;131;Advanced marketing research;MIFSUD MATTHIEU;Grande Ecole 3A
-10:30:00;12:30:00;131;Advanced marketing research;MIFSUD MATTHIEU;Grande Ecole 3A
-14:00:00;16:00:00;131;Techniques Quantitatives de Gestion;LEFIEVRE VALERIE;Grande Ecole 1A
-16:15:00;18:15:00;131;Techniques Quantitatives de Gestion;LEFIEVRE VALERIE;Grande Ecole 1A
-08:15:00;10:15:00;135;Data & Business Analytics;SEDDON JONATHAN;Grande Ecole 3A
-10:30:00;12:30:00;135;Data & Business Analytics;SEDDON JONATHAN;Grande Ecole 3A
-14:00:00;16:00:00;135;Data & Business Analytics;SEDDON JONATHAN;Grande Ecole 3A
-16:15:00;18:15:00;135;Data & Business Analytics;SEDDON JONATHAN;Grande Ecole 3A
-08:15:00;10:15:00;137;Multi-capital Accounting and ESG Ratings;TAIBI SOUAD;Grande Ecole 3A
-10:30:00;12:30:00;137;Introduction to Research Methods;BARBIER SAINTE MARIE ANNE;Grande Ecole 3A
-14:00:00;16:00:00;137;Materiality, Reporting and Auditing;AVETISYAN EMMA;Grande Ecole 3A
-16:15:00;18:15:00;137;Culture Hispanique;BONANSCO-DANIEL Francesca;Grande Ecole 1A
-08:15:00;10:15:00;139;Management commercial;BOUCHET Marie-laure;
-10:30:00;12:30:00;139;Management commercial;BOUCHET Marie-laure;
-14:00:00;16:00:00;139;Culture Allemande;DEVEAUX Charlotte;Grande Ecole 1A
-16:15:00;18:15:00;139;Culture Allemande;DEVEAUX Charlotte;Grande Ecole 1A
-08:15:00;10:15:00;143;Culture Hispanique;ROMERO CABALLERO Gleydiz carolina;Grande Ecole 1A
-10:30:00;12:30:00;143;Espagnol;RIVERA GARCIA Inmaculada;Grande Ecole 2A
-14:00:00;16:00:00;143;Advanced English Programme;GUEZINGAR Miranda;Grande Ecole 1A
-16:15:00;18:15:00;143;Espagnol;NAVARRO MENA Madeleine;Grande Ecole 2A
-18:15:00;20:15:00;143;Français (Fall 2024);BOURGEAIS Isabelle;Grande Ecole 2A
-08:15:00;10:15:00;145;Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
-10:30:00;12:30:00;145;Espagnol;NAVARRO MENA Madeleine;Grande Ecole 2A
-14:00:00;16:00:00;145;Culture Hispanique;ROMERO CABALLERO Gleydiz carolina;Grande Ecole 1A
-16:15:00;18:15:00;145;Standard English Programme ;GUEZINGAR Miranda;Grande Ecole 1A
-08:15:00;10:15:00;147;Strategic management;SU Peiran;Grande Ecole 2A
-10:30:00;12:30:00;147;Strategic management;SU Peiran;Grande Ecole 2A
-14:00:00;16:00:00;147;Sustainable Compliance for Business;LONDEIX Mathieu;Grande Ecole 2A
-16:15:00;18:15:00;147;Sustainable Compliance for Business;LONDEIX Mathieu;Grande Ecole 2A
-08:15:00;10:15:00;231;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
-10:30:00;12:30:00;231;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
-14:00:00;16:00:00;231;Financial analysis;ROUSSEAU Simon;Grande Ecole 2A
-16:15:00;18:15:00;231;Economic issues in Today's World : The Economy in Transition;VALAYDEN Ananda;Grande Ecole 1A
-08:15:00;10:15:00;235;Marketing digital et réseaux sociaux;PINEAU Jean-Christophe;Grande Ecole 2A
+08:15:00;10:15:00;131;ISM 2: Data analysis & Business intelligence;FORGET Thierry;Audencia Bachelor
+10:30:00;12:30:00;131;ISM 2: Data analysis & Business intelligence;FORGET Thierry;Audencia Bachelor
+14:00:00;16:00:00;131;Industrial BI;FORGET Thierry;Audencia Bachelor / Communication / SCOM Bachelor / Sciences Com
+16:15:00;18:15:00;131;Industrial BI;FORGET Thierry;Audencia Bachelor / Communication / SCOM Bachelor / Sciences Com
+08:15:00;10:15:00;135;Comptabilité Financière;MOINARD CHRISTIAN;Grande Ecole 1A
+10:30:00;12:30:00;135;Financial Markets;RONCHETTI Diego;Grande Ecole 1A
+14:00:00;16:00:00;135;Enjeux Économiques du Monde Contemporain : L’Économie en Transition;BROWN Adrian;Grande Ecole 1A
+08:15:00;10:15:00;137;Strategic management;SU Peiran;Grande Ecole 2A
+10:30:00;12:30:00;137;Strategic management;SU Peiran;Grande Ecole 2A
+18:15:00;20:15:00;137;Soutien Allemand;WORCH Lisann;Grande Ecole 2A
+10:30:00;12:30:00;139;Espagnol;BONANSCO-DANIEL Francesca;Grande Ecole 2A
+14:00:00;16:00:00;139;Marchés financiers;MAURICE STEPHANIE;Grande Ecole 1A
+08:15:00;10:15:00;143;Advanced English Programme;DUBOURG Claire;Grande Ecole 1A
+10:30:00;12:30:00;143;Standard English Programme ;BRIEND Tersi;Grande Ecole 1A
+16:15:00;18:15:00;143;Foundational English Programme ;DENIS Christina;Grande Ecole 1A
+08:15:00;10:15:00;145;Standard English Programme ;BRIEND Tersi;Grande Ecole 1A
+10:30:00;12:30:00;145;Foundational English Programme ;COCAUD Sophie;Grande Ecole 1A
+14:00:00;16:00:00;145;Foundational English Programme ;COCAUD Sophie;Grande Ecole 1A
+16:15:00;18:15:00;145;Foundational English Programme ;DUBOURG Claire;Grande Ecole 1A
+10:30:00;12:30:00;147;Industry 4.0, circular economy & sustainability;SAUNIER Matthieu;DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A
+14:00:00;16:00:00;147;Analyse financière;DUPERRAY Estelle;Grande Ecole 2A
+08:15:00;10:15:00;231;Corporate Issuers;REES Michael;Grande Ecole 3A
+10:30:00;12:30:00;231;Equity Investments;REES Michael;Grande Ecole 3A
+14:00:00;16:00:00;231;Economics;REES Michael;Grande Ecole 3A
+16:15:00;18:15:00;231;Economic issues in Today's World : The Economy in Transition;BROWN Adrian;Grande Ecole 1A
+08:15:00;10:15:00;235;Customer experience and branding;SCHEGERIN Matyas;Grande Ecole 2A
 10:30:00;12:30:00;235;Economic issues in Today's World : The Economy in Transition;VALAYDEN Ananda;Grande Ecole 1A
-14:00:00;16:00:00;235;Introduction to ecological and social transition;VERGNOT Paul;Grande Ecole 1A
-08:15:00;10:15:00;237;Introduction à la Transition Ecologique et Sociale;VERGNOT Paul;Grande Ecole 1A
-10:30:00;12:30:00;237;Business Simulation;VYAS Hitesh;Grande Ecole 2A
+14:00:00;16:00:00;235;Introduction au Marketing 1;BLANCHETIERE Béatrice;Grande Ecole 1A
+18:15:00;20:15:00;235;Français (Fall 2024);DRUNEAU Virginie;Grande Ecole 2A
+08:15:00;10:15:00;237;Economic issues in Today's World : The Economy in Transition;VALAYDEN Ananda;Grande Ecole 1A
+10:30:00;12:30:00;237;Enjeux Économiques du Monde Contemporain : L’Économie en Transition;BROWN Adrian;Grande Ecole 1A
 14:00:00;16:00:00;237;Economic issues in Today's World : The Economy in Transition;VALAYDEN Ananda;Grande Ecole 1A
-10:30:00;12:30:00;238;Culture Hispanique;BONANSCO-DANIEL Francesca;Grande Ecole 1A
-14:00:00;16:00:00;238;Culture Hispanique;PEREIRA MARTINEZ Francisco;Grande Ecole 1A
+18:15:00;20:15:00;237;Français (Fall 2024);GRENIER Sarah;Grande Ecole 2A
+08:15:00;10:15:00;238;Anglais;REHE-HUMEAU Juliana;Grande Ecole 2A
+10:30:00;12:30:00;238;Anglais;REHE-HUMEAU Juliana;Grande Ecole 2A
+14:00:00;16:00:00;238;Anglais;REHE-HUMEAU Juliana;Grande Ecole 2A
 16:15:00;18:15:00;238;Culture Hispanique;PEREIRA MARTINEZ Francisco;Grande Ecole 1A
-08:15:00;10:15:00;239;Management control;MYLLYMAKI Emma-Riikka;Grande Ecole 2A
-10:30:00;12:30:00;239;Management control;BONIN Florence;Grande Ecole 2A
-14:00:00;16:00:00;239;Fondamentaux du Droit;AUDRAN-LY ANNE;Grande Ecole 1A
-18:15:00;20:15:00;239;Soutien Espagnol;BONANSCO-DANIEL Francesca;Grande Ecole 2A
-10:30:00;12:30:00;241;Advanced English Programme;MELGOZA Danielle;Grande Ecole 1A
-08:15:00;10:15:00;243;Customer experience and branding;SCHEGERIN Matyas;Grande Ecole 2A
-10:30:00;12:30:00;243;Introduction to Marketing 1;SCHEGERIN Matyas;Grande Ecole 1A
-14:00:00;16:00:00;243;Introduction to Marketing 1;ROUX MICHAEL;Grande Ecole 1A
-08:15:00;10:15:00;247;Techniques Quantitatives de Gestion;LEFIEVRE VALERIE;Grande Ecole 1A
-10:30:00;12:30:00;247;CSR and Global Sourcing ;RUAMPS Chin;Grande Ecole 3A
-14:00:00;16:00:00;247;Management stratégique;STERVINOU SANDRINE;Grande Ecole 2A
-10:30:00;12:30:00;254;Allemand;WOLKE Maria;Grande Ecole 2A
-14:00:00;16:00:00;254;Allemand;BLANCHARD Hyun joo;Grande Ecole 2A
-16:15:00;18:15:00;254;Espagnol;GREBERT MARTHA;Grande Ecole 2A
-08:15:00;10:15:00;331;Economic issues in Today's World : The Economy in Transition;VALAYDEN Ananda;Grande Ecole 1A
-10:30:00;12:30:00;331;Fondamentaux du Droit;TASSOU-CADEAU Cécile;Grande Ecole 1A
-14:00:00;16:00:00;331;Comptabilité Financière;ZIAN HOUDA;Grande Ecole 1A
-16:15:00;18:15:00;331;International Negotiation;KAPITSKAIA OLGA;DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM
-08:15:00;10:15:00;335;Fondamentaux du Droit;TASSOU-CADEAU Cécile;Grande Ecole 1A
-10:30:00;12:30:00;335;Marketing digital et réseaux sociaux;PINEAU Jean-Christophe;Grande Ecole 2A
-14:00:00;16:00:00;335;Financial analysis;MEZERET THIERRY;Grande Ecole 2A
-16:15:00;18:15:00;335;Financial analysis;ROUSSEAU Simon;Grande Ecole 2A
-08:15:00;10:15:00;338;Anglais;TAYLOR ANDREW;Grande Ecole 2A
-10:30:00;12:30:00;338;Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
-15:00:00;17:00:00;338;Digital Transformation;EL AMRANI REDOUANE;DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A
-08:15:00;10:15:00;339;Chinese language 2;GUNST Jianping;Audencia Bachelor
-10:30:00;12:30:00;339;Chinese language 2;GUNST Jianping;Audencia Bachelor
-08:15:00;10:15:00;340;Anglais;GROSS Nancy;Grande Ecole 2A
-10:30:00;12:30:00;340;Culture Hispanique;ROMERO CABALLERO Gleydiz carolina;Grande Ecole 1A
-14:00:00;16:00:00;340;Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
-16:15:00;18:15:00;340;Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
-08:15:00;10:15:00;343;Comptabilité Financière;HONSEL Tiphaine;Grande Ecole 1A
-10:30:00;12:30:00;343;Contrôle de gestion;ZIAN HOUDA;Grande Ecole 2A
-14:00:00;16:00:00;343;Business Simulation;VYAS Hitesh;Grande Ecole 2A
-16:15:00;18:15:00;343;Fondamentaux du Droit;AUDRAN-LY ANNE;Grande Ecole 1A
-16:15:00;18:15:00;346;Allemand;WOLKE Maria;Grande Ecole 2A
-08:15:00;10:15:00;347;Contrôle de gestion;CHARLES François;Grande Ecole 2A
-10:30:00;12:30:00;347;Simulation d'entreprise;MATON ERIC;Grande Ecole 2A
-14:00:00;16:00:00;347;Simulation d'entreprise;MATON ERIC;Grande Ecole 2A
-16:15:00;18:15:00;347;Comptabilité Financière;ZIAN HOUDA;Grande Ecole 1A
-08:15:00;10:15:00;35;Standard English Programme ;CONWAY Danielle;Grande Ecole 1A
-10:30:00;12:30:00;35;Standard English Programme ;CONWAY Danielle;Grande Ecole 1A
-14:00:00;16:00:00;35;Standard English Programme ;BERNADOU Marina;Grande Ecole 1A
-16:15:00;18:15:00;35;Standard English Programme ;BERNADOU Marina;Grande Ecole 1A
-08:15:00;10:15:00;350;Espagnol;PEREIRA MARTINEZ Francisco;Grande Ecole 2A
-10:30:00;12:30:00;350;Espagnol;PEREIRA MARTINEZ Francisco;Grande Ecole 2A
-14:00:00;16:00:00;350;Espagnol;NAVARRO MENA Madeleine;Grande Ecole 2A
-16:15:00;18:15:00;350;Espagnol;RIVERA GARCIA Inmaculada;Grande Ecole 2A
-18:15:00;20:15:00;350;Soutien Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
-08:15:00;10:15:00;351;Management stratégique;SAADNA Miloud;Grande Ecole 2A
-10:30:00;12:30:00;351;International Negotiation;KAPITSKAIA OLGA;DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM
-14:00:00;16:00:00;351;Customer experience and branding;SCHEGERIN Matyas;Grande Ecole 2A
-16:15:00;18:15:00;351;Customer experience and branding;SCHEGERIN Matyas;Grande Ecole 2A
-09:00:00;12:30:00;435;Fondamentaux de la finance en entreprise ;MOINARD CHRISTIAN;Formation Continue
-14:00:00;17:30:00;435;Fondamentaux de la finance en entreprise ;MOINARD CHRISTIAN;Formation Continue
-10:30:00;12:30:00;437;Climate Science for Business;ESPAZE Clément;Grande Ecole 2A
-14:00:00;16:00:00;437;Management control;BONIN Florence;Grande Ecole 2A
-16:15:00;18:15:00;437;Management control;BONIN Florence;Grande Ecole 2A
-08:15:00;10:15:00;441;Strategic management;CLAVÉ Christophe claude;Grande Ecole 2A
-10:30:00;12:30:00;441;Strategic management;CLAVÉ Christophe claude;Grande Ecole 2A
-14:00:00;16:00:00;441;Impact Finance and Management Control;TAIBI SOUAD;Grande Ecole 2A
-16:15:00;18:15:00;441;Impact Finance and Management Control;TAIBI SOUAD;Grande Ecole 2A
-08:15:00;10:15:00;443;Culture Hispanique;BONANSCO-DANIEL Francesca;Grande Ecole 1A
-10:30:00;12:30:00;443;History of Human Societies : Human Era and Human Organizations;NOEL LAURENT;Grande Ecole 2A
-14:00:00;16:00:00;443;Analyse financière;GUITTON Didier;Grande Ecole 2A
-16:15:00;18:15:00;443;Analyse financière;GUITTON Didier;Grande Ecole 2A
-10:30:00;12:30:00;447;Management stratégique;STERVINOU SANDRINE;Grande Ecole 2A
-14:00:00;16:00:00;447;Management control;MYLLYMAKI Emma-Riikka;Grande Ecole 2A
-16:15:00;18:15:00;447;Strategic management;HACHE Thibault;Grande Ecole 2A
-09:00:00;12:00:00;451;Financial Management;MEZERET THIERRY;Formation Continue / MBA
-14:00:00;17:30:00;451;Data analytics;KALAITZOGLOU IORDANIS;Formation Continue / MBA
-09:00:00;12:30:00;452;Manager et piloter les projets en officine;SCHNEIDER Denis;Formation Continue
-14:00:00;17:30:00;452;Manager et piloter les projets en officine;SCHNEIDER Denis;Formation Continue
-08:15:00;10:15:00;49;Fondamentaux du Droit;GEORGES Emmanuel;Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A
-10:30:00;12:30:00;49;Introduction au Marketing 1;DEVYS Delphine;Grande Ecole 1A
-14:00:00;16:00:00;49;Introduction au Marketing 1;DEVYS Delphine;Grande Ecole 1A
-16:15:00;18:15:00;49;Customer experience and branding;DEVYS Delphine;Grande Ecole 2A
-14:00:00;16:00:00;A170;International Negotiation;KAPITSKAIA OLGA;DRED-FC / EIBM / EXTENDED / FAM / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A / IMM / MECE / MSCPM
-10:30:00;12:30:00;A262;Contrôle de gestion;CHARLES François;Grande Ecole 2A
-10:30:00;12:30:00;A270;Marchés financiers;MAURICE STEPHANIE;Grande Ecole 1A
-14:00:00;16:00:00;A270;Marchés financiers;MAURICE STEPHANIE;Grande Ecole 1A
-10:30:00;12:30:00;A480;Comptabilité Financière;HONSEL Tiphaine;Grande Ecole 1A
-14:00:00;16:00:00;A480;Contrôle de gestion;CHARLES François;Grande Ecole 2A
-10:30:00;12:30:00;A54;Introduction to ecological and social transition;VERGNOT Paul;Grande Ecole 1A
-10:30:00;12:30:00;A70;Techniques Quantitatives de Gestion;LEFIEVRE VALERIE;Grande Ecole 1A
-14:00:00;16:00:00;A70;Introduction à la Transition Ecologique et Sociale;MAILLET JOSE;Grande Ecole 1A
-08:15:00;10:15:00;A72;Advanced English Programme;MELGOZA Danielle;Grande Ecole 1A
-10:30:00;12:30:00;A72;Anglais;DUBOURG Claire;Grande Ecole 2A
-08:15:00;10:15:00;A75;Anglais;DUBOURG Claire;Grande Ecole 2A
-10:30:00;12:30:00;A75;Culture Allemande;BLANCHARD Hyun joo;Grande Ecole 1A
-14:00:00;16:00:00;A75;Culture Hispanique;BONANSCO-DANIEL Francesca;Grande Ecole 1A
-16:15:00;18:15:00;A75;Culture Hispanique;ROMERO CABALLERO Gleydiz carolina;Grande Ecole 1A
+08:15:00;10:15:00;239;Financial analysis;HONSEL Tiphaine;Grande Ecole 2A
+10:30:00;12:30:00;239;Marchés financiers;MAURICE STEPHANIE;Grande Ecole 1A
+14:00:00;16:00:00;239;Simulation d'entreprise;LEFIEVRE VALERIE;Grande Ecole 2A
+16:15:00;18:15:00;239;Simulation d'entreprise;LEFIEVRE VALERIE;Grande Ecole 2A
+08:15:00;10:15:00;243;Business Simulation;VYAS Hitesh;Grande Ecole 2A
+10:30:00;12:30:00;243;Introduction au Marketing 1;BLANCHETIERE Béatrice;Grande Ecole 1A
+14:00:00;16:00:00;243;Culture Hispanique;BONANSCO-DANIEL Francesca;Grande Ecole 1A
+16:15:00;18:15:00;243;Financial analysis;MEZERET THIERRY;Grande Ecole 2A
+08:15:00;10:15:00;247;Ecology & Biodiversity : Dynamics & Auditing;TAIBI SOUAD;Grande Ecole 2A
+10:30:00;12:30:00;247;Introduction to Marketing 1;DUMAZERT ZAMMIT Florence;Grande Ecole 1A
+14:00:00;16:00:00;247;Financial analysis;HONSEL Tiphaine;Grande Ecole 2A
+16:15:00;18:15:00;247;Financial analysis;HONSEL Tiphaine;Grande Ecole 2A
+14:00:00;16:00:00;250;Culture Allemande;WOLKE Maria;Grande Ecole 1A
+08:15:00;10:15:00;254;Espagnol;RIVERA GARCIA Inmaculada;Grande Ecole 2A
+10:30:00;12:30:00;254;Espagnol;RIVERA GARCIA Inmaculada;Grande Ecole 2A
+16:15:00;18:15:00;254;Espagnol;NAVARRO MENA Madeleine;Grande Ecole 2A
+08:15:00;10:15:00;331;Introduction à la Transition Ecologique et Sociale;VAILLAND Eloïse;Grande Ecole 1A
+10:30:00;12:30:00;331;Business Simulation;VYAS Hitesh;Grande Ecole 2A
+14:00:00;16:00:00;331;Analyse financière;ROUSSEL Juliette;Grande Ecole 2A
+16:15:00;18:15:00;331;Analyse financière;ROUSSEL Juliette;Grande Ecole 2A
+08:15:00;10:15:00;335;Expérience client et image de marque;DEBSKI Valérie;Grande Ecole 2A
+10:30:00;12:30:00;335;Customer experience and branding;PINEAU Jean-Christophe;Grande Ecole 2A
+14:00:00;16:00:00;335;Customer experience and branding;PINEAU Jean-Christophe;Grande Ecole 2A
+16:15:00;18:15:00;335;Customer experience and branding;PINEAU Jean-Christophe;Grande Ecole 2A
+18:15:00;20:15:00;335;Français (Fall 2024);PALIS Céline;Grande Ecole 2A
+10:30:00;12:30:00;338;Supply chain management and Big Data;AUBERT-BAUDEQUIN Catherine;Audencia Bachelor
+14:00:00;16:00:00;338;Culture Hispanique;PEREIRA MARTINEZ Francisco;Grande Ecole 1A
+08:15:00;10:15:00;339;Supply chain management and Big Data;AUBERT-BAUDEQUIN Catherine;Audencia Bachelor
+10:30:00;12:30:00;339;Fondamentaux du Droit;AUDRAN-LY ANNE;Grande Ecole 1A
+14:00:00;16:00:00;339;Digital Transformation;EL AMRANI REDOUANE;DRED-FC / Grande Ecole / Grande Ecole 1A / Grande Ecole 2A / Grande Ecole 3A
+18:15:00;20:15:00;339;Soutien Allemand;FEIGE-LANGONNET Ludmila;Grande Ecole 2A
+08:15:00;10:15:00;340;Anglais;TAYLOR ANDREW;Grande Ecole 2A
+10:30:00;12:30:00;340;Advanced English Programme;DUBOURG Claire;Grande Ecole 1A
+14:00:00;16:00:00;340;Anglais;LIGTENBERG Tina;Grande Ecole 2A
+16:15:00;18:15:00;340;Anglais;LIGTENBERG Tina;Grande Ecole 2A
+08:15:00;10:15:00;343;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
+10:30:00;12:30:00;343;Ecology & Biodiversity : Dynamics & Auditing;TAIBI SOUAD;Grande Ecole 2A
+14:00:00;16:00:00;343;Strategic management;SU Peiran;Grande Ecole 2A
+16:15:00;18:15:00;343;Marchés financiers;MAURICE STEPHANIE;Grande Ecole 1A
+18:15:00;20:15:00;343;Français (Fall 2024);QUELIER Alizée;Grande Ecole 2A
+08:15:00;10:15:00;346;Anglais;GROSS Nancy;Grande Ecole 2A
+10:30:00;12:30:00;346;Anglais;GROSS Nancy;Grande Ecole 2A
+08:15:00;10:15:00;347;Techniques Quantitatives de Gestion;BATRAK OLGA;Grande Ecole 1A
+10:30:00;12:30:00;347;Financial analysis;HONSEL Tiphaine;Grande Ecole 2A
+14:00:00;16:00:00;347;Ecology & Biodiversity : Dynamics & Auditing;TAIBI SOUAD;Grande Ecole 2A
+16:15:00;18:15:00;347;Comptabilité Financière;GEYER DOMINIQUE;Grande Ecole 1A
+18:15:00;20:15:00;347;Français (Fall 2024);BOURGEAIS Isabelle;Grande Ecole 2A
+08:15:00;10:15:00;35;Espagnol;BONANSCO-DANIEL Francesca;Grande Ecole 2A
+10:30:00;12:30:00;35;Foundational English Programme ;DENIS Christina;Grande Ecole 1A
+14:00:00;16:00:00;35;Foundational English Programme ;DENIS Christina;Grande Ecole 1A
+10:30:00;12:30:00;350;Espagnol;SALAZAR DELGADO Carolina;Grande Ecole 2A
+14:00:00;16:00:00;350;Anglais;GROSS Nancy;Grande Ecole 2A
+16:15:00;18:15:00;350;Anglais;COCAUD Sophie;Grande Ecole 2A
+08:15:00;10:15:00;351;Management control;MYLLYMAKI Emma-Riikka;Grande Ecole 2A
+10:30:00;12:30:00;351;Contrôle de gestion;MOINARD CHRISTIAN;Grande Ecole 2A
+14:00:00;16:00:00;351;Business Simulation;VYAS Hitesh;Grande Ecole 2A
+16:15:00;18:15:00;351;Strategic management;SU Peiran;Grande Ecole 2A
+18:15:00;20:15:00;351;Français (Fall 2024);WEISSMANN Caroline;Grande Ecole 2A
+09:00:00;12:30:00;435;Pilotage de la transformation: les principes de la CSRD;SCUILLER Carole;Formation Continue
+14:00:00;17:30:00;435;La transformation au niveau de la gouvernance;GIRARD-GUERRAUD CARINE;Formation Continue
+08:15:00;10:15:00;437;Financial Markets;RONCHETTI Diego;Grande Ecole 1A
+10:30:00;12:30:00;437;Analyse financière;DUPERRAY Estelle;Grande Ecole 2A
+14:00:00;16:00:00;437;Financial analysis;ROUSSEAU Simon;Grande Ecole 2A
+16:15:00;18:15:00;437;Financial analysis;ROUSSEAU Simon;Grande Ecole 2A
+08:15:00;10:15:00;441;Financial analysis;MEZERET THIERRY;Grande Ecole 2A
+10:30:00;12:30:00;441;Expérience client et image de marque;DEBSKI Valérie;Grande Ecole 2A
+14:00:00;16:00:00;441;Financial analysis;HSISSOU Hind;Grande Ecole 2A
+08:15:00;10:15:00;443;Fondamentaux du Droit;AUDRAN-LY ANNE;Grande Ecole 1A
+10:30:00;12:30:00;443;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
+14:00:00;16:00:00;443;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
+16:15:00;18:15:00;443;Strategizing and ethical challenges;CASTRO Jean-Luc;Grande Ecole 2A
+09:30:00;13:00:00;447;Manager son équipe;KAPITSKAIA OLGA;Formation Continue
+14:00:00;17:30:00;447;Manager son équipe;KAPITSKAIA OLGA;Formation Continue
+09:00:00;12:00:00;451;Data analytics;KALAITZOGLOU IORDANIS;Formation Continue / MBA
+14:00:00;17:30:00;451;Human Resources Management;NASCHBERGER CHRISTINE;Formation Continue / MBA
+08:00:00;09:00:00;452;Développer la dynamique du groupement GIPHAR;BERG Laurence;Formation Continue
+09:00:00;12:30:00;452;Développer la dynamique du groupement GIPHAR;BERG Laurence;Formation Continue
+14:00:00;17:30:00;452;Développer la dynamique du groupement GIPHAR;BERG Laurence;Formation Continue
+10:30:00;12:30:00;A262;Techniques Quantitatives de Gestion;BATRAK OLGA;Grande Ecole 1A
+14:00:00;16:00:00;A262;Contrôle de gestion;CHARLES François;Grande Ecole 2A
+08:15:00;10:15:00;A270;Analyse financière;DUPERRAY Estelle;Grande Ecole 2A
+10:30:00;12:30:00;A270;Financial analysis;MEZERET THIERRY;Grande Ecole 2A
+14:00:00;16:00:00;A270;Techniques Quantitatives de Gestion;BATRAK OLGA;Grande Ecole 1A
+10:30:00;12:30:00;A480;Management control;MYLLYMAKI Emma-Riikka;Grande Ecole 2A
+14:00:00;16:00:00;A480;Comptabilité Financière;GEYER DOMINIQUE;Grande Ecole 1A
+10:30:00;12:30:00;A54;Introduction à la Transition Ecologique et Sociale;VAILLAND Eloïse;Grande Ecole 1A
+08:15:00;10:15:00;A70;Green Logistics Management;MEQDADI Osama;Grande Ecole 3A
+10:30:00;12:30:00;A70;Green Logistics Management;MEQDADI Osama;Grande Ecole 3A
+08:15:00;10:15:00;A72;Anglais;MEEHAN Shaun;Grande Ecole 2A
+10:30:00;12:30:00;A72;Anglais;MEEHAN Shaun;Grande Ecole 2A
+14:00:00;16:00:00;A72;Anglais;LUCAS Elnette;Grande Ecole 2A
+16:15:00;18:15:00;A72;Culture Allemande;WOLKE Maria;Grande Ecole 1A
+08:15:00;10:15:00;A75;Anglais;LUCAS Elnette;Grande Ecole 2A
+10:30:00;12:30:00;A75;Anglais;LUCAS Elnette;Grande Ecole 2A
+14:00:00;16:00:00;A75;Culture Allemande;BORCK Katja;Grande Ecole 1A
 18:15:00;20:15:00;A75;Soutien Espagnol;SERGENT Iris margarita;Grande Ecole 2A

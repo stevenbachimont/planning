@@ -27,13 +27,16 @@ body::before {
 
 .table-container {
     width: 100%;
-    overflow-x: auto;
     margin: 1rem 0;
-    margin-bottom: 50px;
     border-radius: 10px;
     position: relative;
     z-index: 2;
+    max-height: 90vh;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
 
 .table-scroll {
     max-height: 800px;
@@ -101,12 +104,34 @@ thead {
     background-color: #c65656;
 }
 
-.ReactModal__Content {
-    width: 1000px;
-    height: 1000px;
-    z-index: 1001;
+.ReactModal__Overlay.active {
+    display: flex;
 }
 
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5) translate(-50%, -50%);
+        opacity: 0;
+        transform-origin: center;
+    }
+    100% {
+        transform: scale(1) translate(-50%, -50%);
+        opacity: 1;
+        transform-origin: center;
+    }
+}
+
+.ReactModal__Content {
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1001;
+    animation: zoomIn 1s ease-in-out;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -119,11 +144,11 @@ thead {
 
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background:  rgba(21, 101, 179, 0.46);
     border-radius: 10px;
 }
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: rgb(21, 101, 179);
 }

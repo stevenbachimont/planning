@@ -122,7 +122,7 @@ const Tables = () => {
 
     return (
         <div className="table-container">
-            <h1>Atlantic Campus <span style={{ fontSize: '1rem', fontWeight: 'normal' }}>{currentTime}</span></h1>
+            <h1>Atlantic Campus <span style={{ color: 'rgba(246,213,2,0.97)', fontSize: '2rem', fontWeight: 'bold' }}>{currentTime}</span></h1>
             <button className="filtre" onClick={toggleFilter}>
                 {filterActive ? 'Désactiver le filtrage horaire' : 'Activer le filtrage horaire'}
             </button>

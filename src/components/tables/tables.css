@@ -89,24 +89,59 @@ th, td {
 }
 
 .column-time {
-    /* Styles pour la colonne TIME */
+    width: 2rem;
+    text-align: center;
 }
 
 .column-program {
-    /* Styles pour la colonne PROGRAM */
+    width: 2rem;
 }
 
 .column-course {
-    /* Styles pour la colonne COURSE */
+    width: 2rem;
 }
 
 .column-room {
-    /* Styles pour la colonne ROOM */
+    width: 1rem;
+    text-align: center;
 }
 
 .column-teacher {
-    /* Styles pour la colonne TEACHER */
+    width: 2rem;
 }
+
+.scrollable-text {
+    width: 150px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+.scrollable-text.scroll > span {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-animation 10s linear infinite;
+    padding-left: 100%;
+    text-overflow: ellipsis;
+}
+
+.scrollable-text.scroll:hover > span {
+    animation-play-state: paused;
+}
+
+
+@keyframes scroll-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 
 thead {
     background-color: #01051e;

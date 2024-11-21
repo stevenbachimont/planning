@@ -145,29 +145,29 @@ const Tables = () => {
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
                             <td className="column-time">{formatTime(item['Heure Debut'], item['Heure Fin'])}</td>
-                            <td className="column-program"
+                            <td
+                                className={`scrollable-text column-program ${item['Valeur brute champ,Libellé.Service'].length > 20 ? 'scroll' : ''}`}
                                 onClick={() => handleProgramClick(item['Valeur brute champ,Libellé.Service'])}
-                                style={{
-                                    cursor: 'pointer',
-                                    color: item['Valeur brute champ,Libellé.Service'] === selectedProgram ? 'blue' : 'black'
-                                }}
+                                style={{cursor: 'pointer'}}
                             >
-                                {item['Valeur brute champ,Libellé.Service']}</td>
-                            <td className="column-course">{item['Nom du cours']}</td>
-                            <td className="column-room"
+                                <span>{item['Valeur brute champ,Libellé.Service']}</span>
+                            </td>
+                            <td
+                                className={`scrollable-text column-course ${item['Nom du cours'].length > 20 ? 'scroll' : ''}`}
+                            >
+                                <span>{item['Nom du cours']}</span>
+                            </td>                            <td className="column-room "
                                 onClick={() => openModal(item['Salle'])}
-                                style={{cursor: 'pointer', color: 'black'}}
+                                style={{cursor: 'pointer', color: 'rgba(246,213,2,0.97)', fontWeight: 700}}
                             >
                                 {item['Salle']}
                             </td>
-                            <td className="column-teacher"
+                            <td
+                                className={`scrollable-text column-teacher ${item['Intervenant'].length > 20 ? 'scroll' : ''}`}
                                 onClick={() => handleTeacherClick(item['Intervenant'])}
-                                style={{
-                                    cursor: 'pointer',
-                                    color: item['Intervenant'] === selectedTeacher ? 'blue' : 'black'
-                                }}
+                                style={{cursor: 'pointer'}}
                             >
-                                {item['Intervenant']}
+                                <span>{item['Intervenant']}</span>
                             </td>
                         </tr>
                     ))}

@@ -14,6 +14,7 @@ const Tables = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [pointPosition, setPointPosition] = useState({ x: 0, y: 0 });
     const [selectedRoom, setSelectedRoom] = useState('');
+    const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
 
     const roomPositions = {
         '35': { x: -500, y: 5 },
@@ -42,6 +43,14 @@ const Tables = () => {
 
         return () => clearInterval(interval);
     }, [filterActive]);
+
+    useEffect(() => {
+        const timeInterval = setInterval(() => {
+            setCurrentTime(new Date().toLocaleTimeString());
+        }, 1000);
+
+        return () => clearInterval(timeInterval);
+    }, []);
 
     const isCourseOngoing = (courseStartTime) => {
         const [hours, minutes] = courseStartTime.split(':').map(Number);
@@ -96,9 +105,15 @@ const Tables = () => {
         setIsModalOpen(false);
     };
 
-    const formatTime = (time) => {
-        const [hours, minutes] = time.split(':');
-        return `${hours}:${minutes}`;
+    const formatTime = (startTime, endTime) => {
+        const [startHours, startMinutes] = startTime.split(':');
+        const [endHours, endMinutes] = endTime.split(':');
+        return (
+            <span>
+            <span style={{ color: 'rgba(246,213,2,0.97)', fontWeight: 700 }}>{`${startHours}:${startMinutes}`}</span>
+            <span style={{ color: 'rgba(244,244,243,0.97)', fontSize: '0.8em' }}>{` - ${endHours}:${endMinutes}`}</span>
+        </span>
+        );
     };
 
     if (loading) {
@@ -107,31 +122,30 @@ const Tables = () => {
 
     return (
         <div className="table-container">
-            <h1>Planning</h1>
-            <button onClick={toggleFilter}>
+            <h1>Atlantic Campus <span style={{ fontSize: '1rem', fontWeight: 'normal' }}>{currentTime}</span></h1>
+            <button className="filtre" onClick={toggleFilter}>
                 {filterActive ? 'Désactiver le filtrage horaire' : 'Activer le filtrage horaire'}
             </button>
             <div className="table-scroll">
                 <table className="data-table fixed-width-table fixed-header">
                     <thead>
                     <tr>
-                        <th>TIME</th>
-                        <th onClick={handleProgramHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
+                        <th className="column-time">TIME</th>
+                        <th className="column-program" onClick={handleProgramHeaderClick} style={{cursor: 'pointer'}}>
                             PROGRAM
                         </th>
-                        <th>COURSE</th>
-                        <th>ROOM</th>
-                        <th onClick={handleTeacherHeaderClick} style={{cursor: 'pointer', color: 'yellow'}}>
+                        <th className="column-course">COURSE</th>
+                        <th className="column-room">ROOM</th>
+                        <th className="column-teacher" onClick={handleTeacherHeaderClick} style={{cursor: 'pointer'}}>
                             TEACHER
                         </th>
-
                     </tr>
                     </thead>
                     <tbody>
                     {filteredData.map((item, index) => (
                         <tr key={index} className={index % 2 === 0 ? 'row-even' : 'row-odd'}>
-                            <td>{`${formatTime(item['Heure Debut'])} - ${formatTime(item['Heure Fin'])}`}</td>
-                            <td
+                            <td className="column-time">{formatTime(item['Heure Debut'], item['Heure Fin'])}</td>
+                            <td className="column-program"
                                 onClick={() => handleProgramClick(item['Valeur brute champ,Libellé.Service'])}
                                 style={{
                                     cursor: 'pointer',
@@ -139,14 +153,14 @@ const Tables = () => {
                                 }}
                             >
                                 {item['Valeur brute champ,Libellé.Service']}</td>
-                            <td>{item['Nom du cours']}</td>
-                            <td
+                            <td className="column-course">{item['Nom du cours']}</td>
+                            <td className="column-room"
                                 onClick={() => openModal(item['Salle'])}
                                 style={{cursor: 'pointer', color: 'black'}}
                             >
                                 {item['Salle']}
                             </td>
-                            <td
+                            <td className="column-teacher"
                                 onClick={() => handleTeacherClick(item['Intervenant'])}
                                 style={{
                                     cursor: 'pointer',

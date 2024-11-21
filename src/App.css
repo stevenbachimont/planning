@@ -5,5 +5,24 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../assets/fonts/Century Gothic/centurygothic.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../assets/fonts/Century Gothic/centurygothic_bold.ttf') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
+h1 {
+  font-size: 2.5rem;
+  font-family: "Century Gothic", Arial, sans-serif;
+  color: #01051e;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}

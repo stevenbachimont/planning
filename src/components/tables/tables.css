@@ -12,13 +12,19 @@ body {
 body::before {
     content: url("../../../public/charte_test.svg");
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 90%;
     scale: 1.5;
     transform: translate(-50%, -50%);
     z-index: 1;
     opacity: 0.5;
     pointer-events: none;
+}
+
+.filtre {
+    border-color: rgba(250, 235, 215, 0);
+    background-color: rgba(14, 107, 197, 0);
+    color: rgba(72, 85, 168, 0);
 }
 
 .fixed-width-table {
@@ -37,11 +43,11 @@ body::before {
     overflow: hidden;
 }
 
-
 .table-scroll {
-    max-height: 800px;
+    max-height: 1600px;
     overflow-y: auto;
     position: relative;
+    padding-bottom: 200px;
 }
 
 .fixed-header thead tr {
@@ -55,15 +61,37 @@ body::before {
 table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
+    font-family: 'Century Gothic', Arial, sans-serif;
+    font-size: 16px;
+    color: #f1ecec;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
     border: 1px solid #5e5c5c;
+    font-weight: normal;
 }
 
+.column-time {
+    /* Styles pour la colonne TIME */
+}
+
+.column-program {
+    /* Styles pour la colonne PROGRAM */
+}
+
+.column-course {
+    /* Styles pour la colonne COURSE */
+}
+
+.column-room {
+    /* Styles pour la colonne ROOM */
+}
+
+.column-teacher {
+    /* Styles pour la colonne TEACHER */
+}
 
 thead {
     background-color: #01051e;
